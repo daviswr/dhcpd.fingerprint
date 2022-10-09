@@ -9,34 +9,34 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 ---
 ## Apple
 ### Apple Mac OS
-| **Device/OS**                        | **PRL**                                       | **Vendor ID**                               | **Client Class**                       |
-| :-------------                       | :------                                       | :------------                               | :---------------                       |
-| Apple NetBoot PowerPC                | `1:3:2b:3c`                                   | `AAPLBSDPC/ppc/`*model*                     | Apple NetBoot (PPC)                    |
-| Apple NetBoot Intel                  | `1:3:43:2b:3c`                                | `AAPLBSDPC/i386/`*model*                    | Apple NetBoot (Intel)                  |
-| Apple Mac OS 9.1.0                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.1 Open Transport 2.7.4` *model*   | Apple Mac OS 9                         |
-| Apple Mac OS 9.2.1                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.1 Open Transport 2.7.7` *model* | Apple Mac OS 9                         |
-| Apple Mac OS 9.2.2                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.2 Open Transport 2.7.9` *model* | Apple Mac OS 9                         |
-| Apple Mac OS X "Cheetah" 10.0.0      | `1:3:c:6:f:70:71:4e:4f`                       |                                             | Apple Mac OS X 10.0                    |
-| Apple Mac OS X "Puma" 10.1.4         | `1:3:6:f:70:71:4e:4f`                         |                                             | Apple Mac OS X 10.1                    |
-| Apple Mac OS X "Jaguar" 10.2.0       | `1:3:6:f:70:71:4e:4f:5f`                      |                                             | Apple Mac OS X 10.2 / 10.3             |
-| Apple Mac OS X "Panther" 10.3.0      | `1:3:6:f:70:71:4e:4f:5f`                      |                                             | Apple Mac OS X 10.2 / 10.3             |
-| Apple Mac OS X "Tiger" 10.4.11       | `1:3:6:f:70:71:4e:4f:5f:fc`                   |                                             | Apple Mac OS X 10.4 / Apple TV G1      |
-| AppleTV G1 3.0.2                     | `1:3:6:f:70:71:4e:4f:5f:fc`                   |                                             | Apple Mac OS X 10.4 / Apple TV G1      |
-| Apple Mac OS X "Leopard" 10.5.8      | `1:3:6:f:77:5f:fc:2c:2e:2f`                   |                                             | Apple Mac OS X 10.5 / 10.6             |
-| Apple Mac OS X "Snow Leopard" 10.6.8 | `1:3:6:f:77:5f:fc:2c:2e:2f`                   |                                             | Apple Mac OS X 10.5 / 10.6             |
-| Apple Mac OS X "Lion" 10.7.1         | `1:3:6:f:77:5f:fc:2c:2e`                      |                                             | Apple OS X 10.7 - 10.10                |
-| Apple OS X "Mountain Lion" 10.8.0    | `1:3:6:f:77:5f:fc:2c:2e`                      |                                             | Apple OS X 10.7 - 10.10                |
-| Apple OS X "Mavericks" 10.9.0        | `1:3:6:f:77:5f:fc:2c:2e`                      |                                             | Apple OS X 10.7 - 10.10                |
-| Apple OS X "Yosemite" 10.10.0        | `1:3:6:f:77:5f:fc:2c:2e`                      |                                             | Apple OS X 10.7 - 10.10                |
-| Apple OS X "El Capitan" 10.11.0      | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                             | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "Sierra" 10.12.0         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                             | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "High Sierra" 10.13.0    | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                             | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "Mojave" 10.14.6         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                             | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "Catalina" 10.15.7       | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                             | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "Big Sur" 11.5.2         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                             | Apple macOS 11 - 12                    |
-| Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                             | Apple macOS 11 - 12                    |
-| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                             | Apple macOS 12                         |
-
+| **Device/OS**                        | **PRL**                                       | **Vendor ID**                                     | **Client Class**                       |
+| :-------------                       | :------                                       | :------------                                     | :---------------                       |
+| Apple NetBoot PowerPC                | `1:3:2b:3c`                                   | `AAPLBSDPC/ppc/`*model*                           | Apple NetBoot (PPC)                    |
+| Apple NetBoot Intel                  | `1:3:43:2b:3c`                                | `AAPLBSDPC/i386/`*model*                          | Apple NetBoot (Intel)                  |
+| Apple Mac OS 9.1.0                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.1 Open Transport `*version*` `*model*   | Apple Mac OS 9                         |
+| Apple Mac OS 9.2.1                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.1 Open Transport `*version*` `*model* | Apple Mac OS 9                         |
+| Apple Mac OS 9.2.2                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.2 Open Transport `*version*` `*model* | Apple Mac OS 9                         |
+| Apple Mac OS X "Cheetah" 10.0.0      | `1:3:c:6:f:70:71:4e:4f`                       |                                                   | Apple Mac OS X 10.0                    |
+| Apple Mac OS X "Puma" 10.1.4         | `1:3:6:f:70:71:4e:4f`                         |                                                   | Apple Mac OS X 10.1                    |
+| Apple Mac OS X "Jaguar" 10.2.0       | `1:3:6:f:70:71:4e:4f:5f`                      |                                                   | Apple Mac OS X 10.2 / 10.3             |
+| Apple Mac OS X "Panther" 10.3.0      | `1:3:6:f:70:71:4e:4f:5f`                      |                                                   | Apple Mac OS X 10.2 / 10.3             |
+| Apple Mac OS X "Tiger" 10.4.11       | `1:3:6:f:70:71:4e:4f:5f:fc`                   |                                                   | Apple Mac OS X 10.4 / Apple TV G1      |
+| AppleTV G1 3.0.2                     | `1:3:6:f:70:71:4e:4f:5f:fc`                   |                                                   | Apple Mac OS X 10.4 / Apple TV G1      |
+| Apple Mac OS X "Leopard" 10.5.8      | `1:3:6:f:77:5f:fc:2c:2e:2f`                   |                                                   | Apple Mac OS X 10.5 / 10.6             |
+| Apple Mac OS X "Snow Leopard" 10.6.8 | `1:3:6:f:77:5f:fc:2c:2e:2f`                   |                                                   | Apple Mac OS X 10.5 / 10.6             |
+| Apple Mac OS X "Lion" 10.7.1         | `1:3:6:f:77:5f:fc:2c:2e`                      |                                                   | Apple OS X 10.7 - 10.10                |
+| Apple OS X "Mountain Lion" 10.8.0    | `1:3:6:f:77:5f:fc:2c:2e`                      |                                                   | Apple OS X 10.7 - 10.10                |
+| Apple OS X "Mavericks" 10.9.0        | `1:3:6:f:77:5f:fc:2c:2e`                      |                                                   | Apple OS X 10.7 - 10.10                |
+| Apple OS X "Yosemite" 10.10.0        | `1:3:6:f:77:5f:fc:2c:2e`                      |                                                   | Apple OS X 10.7 - 10.10                |
+| Apple OS X "El Capitan" 10.11.0      | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
+| Apple macOS "Sierra" 10.12.0         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
+| Apple macOS "High Sierra" 10.13.0    | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
+| Apple macOS "Mojave" 10.14.6         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
+| Apple macOS "Catalina" 10.15.7       | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
+| Apple macOS "Big Sur" 11.5.2         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
+| Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
+| Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
+| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 ### Apple iOS
 | **Device/OS**                    | **PRL**                  | **Vendor ID** | **Client Class**  |
 | :------------                    | :------                  | :------------ | :---------------  |
@@ -100,11 +100,10 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | CentOS 6.0 (dhclient)                           | `1:1c:2:3:f:6:c:28:29:2a:1a:77`                                 |                                                                   |               | Red Hat Enterprise Linux 6 or derivative        |
 | CentOS 6.2                                      | `1:1c:2:79:f:6:c:28:29:2a:1a:77:3`                              |                                                                   |               | Red Hat-based Linux (dhclient)                  |
 | Oracle Linux 6.2                                | `1:1c:2:79:f:6:c:28:29:2a:1a:77:3`                              |                                                                   |               | Red Hat-based Linux (dhclient)                  |
-| Fedora 19                                       | `1:1c:2:79:f:6:c:28:29:2a:1a:77:3:79:f9:21:fc:2a`               |                                                                   |               | *(Not yet classified)*                          |
+| Fedora 19                                       | `1:1c:2:79:f:6:c:28:29:2a:1a:77:3:79:f9:21:fc:2a`               |                                                                   |               | Red Hat-based Linux                             |
 | Fedora/CentOS/Oracle unknown                    | `1:1c:2:79:f:6:c:28:29:2a:1a:77:3:79:f9:21:2a`                  |                                                                   |               | Red Hat-based Linux                             |
-| Fedora 32                                       | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   |               | Fedora-based Linux                              |
-| Fedora 36                                       | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   |               | Fedora-based Linux                              |
-| SystemRescue 9.04                               | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue                                    |
+| Fedora 32                                       | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   |               | Red Hat-based Linux                             |
+| Fedora 36                                       | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   |               | Red Hat-based Linux                             |
 | **Other**                                       |||||
 | Linux Terminal Server Project thin client       | `1:3:6:c:f:1c:28:29:2a:42`                                      | `udhcp 0.9.9-pre`                                                 |               | Linux Terminal Server Project                   |
 | Arch Linux 2022.10.01                           | `1:3:6:c:f:21:2a:78:79`                                         |                                                                   |               | Arch-based Linux                                |
@@ -120,7 +119,8 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | openSUSE 11.4 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2f`    | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
 | openSUSE 11.4, 12.1 (dhclient)                  | `1:1c:3:79:1a:c:f:77:6:28:29:57:55:56:2c:2d:2e:2f:2a`           |                                                                   |               | openSUSE Linux                                  |
 | openSUSE 12.1 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2e:2f` | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
-| RescueSystem unknown version (reported)         | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue                                    |
+| SystemRescue unknown version (reported)         | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue                                    |
+| SystemRescue 9.04 (Arch-based)                  | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue                                    |
 
 ### Linux Appliances
 | **Device/OS**                                | **PRL**                                   | **Vendor ID**                                                | **Hostname**    | **Client Class**                                     |
@@ -142,7 +142,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Sharp Aquos TV                               | `1:3:6:36`                                |                                                              |                 | Sharp media appliance                                |
 | LG Infinia 47LE8500 TV                       | `1:3:f:6:c:1c`                            |                                                              |                 | LG media appliance (Linux)                           |
 | TiVo Roamio                                  | `1:1c:2:3:f:6:c`                          |                                                              | `TIVO-`*serial* | TiVo media appliance (Linux)                         |
-| Unknown appliance, possibly Vizio            | `1:79:21:3:6:c:f:1a:1c:2a:33:36:3a:3b:77` | `dhcpcd-5.2.10:Linux-2.6.28.9:7631:BCM97xxx Settop Platform` |                 | dhcpcd client (Linux)                                |
+| Unknown appliance, possibly Vizio            | `1:79:21:3:6:c:f:1a:1c:2a:33:36:3a:3b:77` | `dhcpcd-5.2.10:Linux-2.6.28.9:7631:BCM97xxx Settop Platform` |                 | Linux media appliance                                |
 | **SOHO Network Appliances**                  |||||
 | Asus unknown network appliance               | `1:3:6:c:f:1c:28:29:2a:79` (Linksys)      | `udhcp 0.9.9-pre`                                            |                 | Asus or Linksys network appliance (Linux)            |
 | Asus unknown network appliance               | `1:3:6:c:f:1c:2a:79:21:f9`                | `udhcp 1.17.4`                                               |                 | Asus network appliance (Linux)                       |
@@ -157,12 +157,12 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | D-Link WBR-1310 wireless router              | `1:3:6:f` (Xbox, DRAC, Netgear, etc)      | `MSFT 98`                                                    |                 | D-Link network appliance (Linux)                     |
 | Linksys WRT54-GL v1.1 (Tomato 1.28)          | `1:3:6:c:f:1c:2a`                         | `udhcp 1.14.4`                                               |                 | Linux appliance                                      |
 | Linksys BEFSR41v3 router (1.05.00)           | `1:f:3:6:2c:2e:2f`                        |                                                              |                 | Linksys network appliance (Linux)                    |
-| Linksus unknown network appliance            | `1:3:f:6`                                 |                                                              | `Cisco`_*_      | Linksys network appliance                            |
+| Linksys unknown network appliance            | `1:3:f:6`                                 |                                                              | `Cisco`_*_      | Linksys network appliance                            |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:d4`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:79`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
 | Linksys unknown network appliance            | `1:3:6:c:f:1c:2c`                         | `udhcp 0.9.8`                                                |                 | Linksys network appliance (Linux)                    |
 | Linksys unknown network appliance            | `1:3:6:c:f:1c:2c:21:f9 `                  | `udhcp 0.9.8`                                                |                 | Linksys network appliance (Linux)                    |
 | Linksys unknown network appliance            | `1:3:6:c:f:1c:28:29:2a:79` (Asus)         | `udhcp 0.9.9-pre`                                            |                 | Asus or Linksys network appliance (Linux)            |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:d4`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:79`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
 | Netgear RP614v4 router                       | `1:3:6:c:f:1c`                            | `udhcp 0.9.9-pre`                                            | `RP614v4`       | Netgear network appliance (Linux)                    |
 | Netgear WNR2000 wireless router              | `1:3:6:c:f:1c:21:79`                      | `udhcp 0.9.9-pre`                                            |                 | Netgear network appliance (Linux)                    |
 | Netgear WNR2000v2 wireless router            | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
@@ -195,7 +195,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Google Chrome OS                                     | `1:1c:2:3:f:6:c` (ISC dhclient default) |                                                                                     | ISC dhclient (Linux/Unix)                              |
 | Google Chrome OS (201109211 nightly)                 | `1:79:21:3:6:c:f:1a:1c:33:36:3a:3b:77`  | `dhcpcd 5.1.4`                                                                      | Google Chrome OS                                       |
 | **Google Android**                                   ||||
-| BrightSign HD220                                     | *(Unknown)*                             | `dhcpcd-5.5.4:Linux-2.6.39`*build*`BrightSign HD220`                                    | BrightSign media appliance (Android)                   |
+| BrightSign HD220                                     | *(Unknown)*                             | `dhcpcd-5.5.4:Linux-2.6.39`*build*`BrightSign HD220`                                | BrightSign media appliance (Android)                   |
 | **Google Android 2**                                 ||||
 | Android 2.x - Unknown                                | `1:79:21:3:6:f:1c:2c:33:3a:3b:77`       | `dhcpcd 4.0.15`                                                                     | Google Android 2.1 / 2.2 / 2.3                         |
 | Android 2.1 - B&N Nook Simple Touch                  | `1:79:21:3:6:1c:33:3a:3b`               | `dhcpcd 4.0.15`                                                                     | Google Android 2.1 / 2.2 / 2.3                         |
@@ -339,16 +339,20 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 7.x                                          | `1:3:6:f:1a:1c:33:3a:3b`                | `android-dhcp-N`                                                                    | Google Android 7.x                                     |
 | Android 7.x                                          | `1:3:6:f:1a:1c:33:3a:3b:2b`             | `android-dhcp-N`                                                                    | Google Android 7.x                                     |
 | **Google Android 8**                                 ||||
-| Android 8.0.0                                        | `1:3:6:f:1a:1c:33:3a:3b:2b`             | `android-dhcp-8.0.0`                                                                | Google Android 8.0                                     |
-| Android 8.x                                          | `1:3:6:f:1a:1c:33:3a:3b:2b`             | `android-dhcp-O`                                                                    | Google Android 8.x                                     |
+| Android 8.0.0 - Samsung Galaxy S7                    | `1:3:6:f:1a:1c:33:3a:3b:2b`             | `android-dhcp-8.0.0`                                                                | Google Android 8.x                                     |
+| Android 8.x                                          | *(Unknown)*                             | `android-dhcp-O`                                                                    | Google Android 8.x                                     |
 | **Google Android 9**                                 ||||
-| Android 9.x                                          | *(Unknown)*                             | `android-dhcp-9`*version*                                                           | Google Android 9                                       |
+| Android 9                                            | *(Unknown)*                             | `android-dhcp-9`                                                                    | Google Android 9                                       |
 | **Google Android 10**                                ||||
-| Android 10.x                                         | *(Unknown)*                             | `android-dhcp-10`*version*                                                          | Google Android 10                                      |
+| Android 10                                           | *(Unknown)*                             | `android-dhcp-10`                                                                   | Google Android 10                                      |
 | **Google Android 11**                                ||||
-| Android 11.x                                         | *(Unknown)*                             | `android-dhcp-11`*version*                                                          | Google Android 11                                      |
+| Android 11 - Google Pixel 4a                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   | Google Android 11                                      |
+| Android 11 - Samsung Galaxy S10                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   | Google Android 11                                      |
+| Android 11 - Samsung Galaxy S20                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   | Google Android 11                                      |
+| Android 11 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   | Google Android 11                                      |
 | **Google Android 12**                                ||||
-| Android 12.x                                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`*version*                                                          | Google Android 12                                      |
+| Android 12 - Google Pixel 6 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | Google Android 12                                      |
+| Android 12 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | Google Android 12                                      |
 
 ## Unix
 | **Device/OS**                     | **PRL**                                   | **Vendor ID**  | **Client Class**              |
@@ -434,45 +438,48 @@ See 'Game Consoles' for Xbox family
 
 ---
 ## Game Consoles
-| **Device/OS**                    | **PRL**                                     | **Vendor ID**    | **Hostname**     | **Client Class**      |
-| :------------                    | :------                                     | :------------    | :-----------     | :---------------      |
-| Nintendo 3DS                     | `1:3:6:f:1c:21` (eComStation, Wii)          |                  | `Nintendo 3DS`   |  Nintendo 3DS         |
-| Nintendo Wii                     | `1:3:6:f:1c:21` (eComStation, 3DS)          |                  | `Wii`            | Nintendo Wii          |
-| Nintendo Wii U                   | `1:3:6:f` (BB, DRAC, Netgear, etc)          |                  | `Nintendo Wii U` | Nintendo Wii U        |
-| Nintendo Switch                  | `1:3:6:1c`                                  |                  |                  | Nintendo Switch       |
-| Microsoft Xbox (original)        | `1:3:6`                                     | `XBOX 1.0`       |                  | Microsoft Xbox        |
-| Microsoft Xbox 360               | `1:3:6:f` (BB, DRAC, Netgear, etc)          | `Xbox 360`       |                  | Microsoft Xbox 360    |
-| Microsoft Xbox One               | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b` (Win8) | `MSFT 5.0`       | `Xbox-SystemOS`  | Microsoft Xbox One    |
-| Microsoft Xbox One               | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b` (Win8) | `MSFT 5.0`       | `XboxOne`        | Microsoft Xbox One    |
-| Microsoft Xbox One (Threshold 2) | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:f` (Win10) | `MSFT 5.0`       | `XboxOne`        | Microsoft Xbox One    |
-| Sony PlayStation 3               | `1:3:f:6`                                   | `PS3\000`        |                  | Sony PlayStation 3    |
-| Sony PlayStation 4               | `1:3:f:6`                                   | `PS4\000`        |                  | Sony PlayStation 4    |
-| Sony PlayStation Vita            | `1:3:f:6`                                   | `PS Vita TV\000` |                  | Sony PlayStation Vita |
+| **Device/OS**                     | **PRL**                                     | **Vendor ID**    | **Hostname**     | **Client Class**      |
+| :------------                     | :------                                     | :------------    | :-----------     | :---------------      |
+| Nintendo GameCube - Mario Kart DD | `1:3:6:1a:1c:3a:3b`                         |                  |                  | Nintendo GameCube     |
+| Nintendo GameCube - Swiss         | `1:3:1c:6`                                  |                  |                  | Nintendo GameCube     |
+| Nintendo Wii                      | `1:3:6:f:1c:21` (eComStation, 3DS)          |                  | `Wii`            | Nintendo Wii          |
+| Nintendo 3DS                      | `1:3:6:f:1c:21` (eComStation, Wii)          |                  | `Nintendo 3DS`   | Nintendo 3DS          |
+| Nintendo Wii U                    | `1:3:6:f` (BB, DRAC, Netgear, etc)          |                  | `Nintendo Wii U` | Nintendo Wii U        |
+| Nintendo Switch                   | `1:3:6:1c`                                  |                  |                  | Nintendo Switch       |
+| Microsoft Xbox (original)         | `1:3:6`                                     | `XBOX 1.0`       |                  | Microsoft Xbox        |
+| Microsoft Xbox 360                | `1:3:6:f` (BB, DRAC, Netgear, etc)          | `Xbox 360`       |                  | Microsoft Xbox 360    |
+| Microsoft Xbox One                | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b` (Win8) | `MSFT 5.0`       | `Xbox-SystemOS`  | Microsoft Xbox One    |
+| Microsoft Xbox One                | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b` (Win8) | `MSFT 5.0`       | `XboxOne`        | Microsoft Xbox One    |
+| Microsoft Xbox One (Threshold 2)  | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:f` (Win10) | `MSFT 5.0`       | `XboxOne`        | Microsoft Xbox One    |
+| Sony PlayStation 3                | `1:3:f:6`                                   | `PS3\000`        |                  | Sony PlayStation 3    |
+| Sony PlayStation 4                | `1:3:f:6`                                   | `PS4\000`        |                  | Sony PlayStation 4    |
+| Sony PlayStation Vita             | `1:3:f:6`                                   | `PS Vita TV\000` |                  | Sony PlayStation Vita |
 
 ---
 ## Other Appliances
-| **Device/OS**                                | **PRL**                                    | **Vendor ID**                              | **Hostname**         | **Client Class**                     |
-| :------------                                | :------                                    | :------------                              | :-----------         | :---------------                     |
-| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2b:3a:3b:2a:2:c`          | `APC` (This can be customized)             |                      | APC UPS                              |
-| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2c:2b:3a:3b:2a:2:c`       | `APC` (This can be customized)             |                      | APC UPS                              |
-| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `BlackBerry`                               |                      | BlackBerry                           |
-| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `FSVDSL.UMA.RIM.BlackBerry`                |                      | BlackBerry                           |
-| BlackBerry PlayBook (BB Tablet OS 2)         | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry Tablet OS 2.`*version*         |                      | BlackBerry PlayBook                  |
-| BlackBerry 10 unknown                        | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry OS 10.`*version*               |                      | BlackBerry 10                        |
-| Broadcom iSCSI offload engine                | `1:3:33:36`                                | `brcmftsk`                                 |                      | Broadcom iSCSI offload engine        |
-| ClearOne Converge                            | `1:1c:3:6:f:2:2a:4:42`                     |                                            | `CONVERGE`_*_        | ClearOne Converge media appliance    |
-| Dell iDRAC 6                                 | `1:3:6:c:f:1c:28:29:2a:2b:77` (Some udhcp) | `iDRAC`                                    |                      | Dell DRAC                            |
-| Dell DRAC unknown                            | `1:3:6:f` (BB, Xbox 360, Netgear, etc)     | `DELL RAC TYPE-A`                          |                      | Dell DRAC                            |
-| FitBit Aria smart scale                      | `1:3:6:f:42:43:d:2c`                       |                                            | `GainSpan`*mac-addr* | GainSpan IoT appliance               |
-| FitBit Ionic fitness tracker                 | `1:3:6`                                    |                                            | `Ionic`              | FitBit Ionic                         |
-| FitBit Sense fitness tracker                 | `1:3:6`                                    |                                            | `Sense`              | FitBit Sense                         |
-| MaceView MVR-SQ80 DVR                        | `1:3:6:1c:f:c`                             |                                            | `DVR`                | Mace Security DVR                    |
-| Moxa NPort 5232 serial device server         | `1:3:4:6:2b`                               | `MOS 2.0`                                  |                      | *(Not yet classified)*               |
-| PowerDsine PoE midspan                       | `1:3:6:2b`                                 | `midspan_ip_list` (This can be customized) |                      | PowerDsine midspan                   |
-| Rabbit Semiconductor unknown microcontroller | `1:3:2:6:c:f:45:2a:8`                      | `Rabbit-TCPIP:Z-World:DHCP-SNTP:1.0.0`     |                      | Rabbit Semiconductor microcontroller |
-| Samsung P260 mobile phone                    | `1:3:6:c:33:3a:3b`                         |                                            |                      | Samsung mobile phone                 |
-| Unknown serial terminal server               | `1:3:6`                                    |                                            | `CAB`_*_             | Vending Terminal Server              |
-| Wyse PCoIP thin terminal                     | `1:3:6:c:f:2a:2b`                          | `PCoIP Endpoint`                           |                      | Wyse thin terminal                   |
+| **Device/OS**                                | **PRL**                                    | **Vendor ID**                              | **Hostname**         | **Client Class**                          |
+| :------------                                | :------                                    | :------------                              | :-----------         | :---------------                          |
+| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2b:3a:3b:2a:2:c`          | `APC` (This can be customized)             |                      | APC UPS                                   |
+| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2c:2b:3a:3b:2a:2:c`       | `APC` (This can be customized)             |                      | APC UPS                                   |
+| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `BlackBerry`                               |                      | BlackBerry                                |
+| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `FSVDSL.UMA.RIM.BlackBerry`                |                      | BlackBerry                                |
+| BlackBerry PlayBook (BB Tablet OS 2)         | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry Tablet OS 2.`*version*         |                      | BlackBerry PlayBook                       |
+| BlackBerry 10 unknown                        | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry OS 10.`*version*               |                      | BlackBerry 10                             |
+| Broadcom iSCSI offload engine                | `1:3:33:36`                                | `brcmftsk`                                 |                      | Broadcom iSCSI offload engine             |
+| ClearOne Converge                            | `1:1c:3:6:f:2:2a:4:42`                     |                                            | `CONVERGE`_*_        | ClearOne Converge media appliance         |
+| Dell iDRAC 6                                 | `1:3:6:c:f:1c:28:29:2a:2b:77` (Some udhcp) | `iDRAC`                                    |                      | Dell DRAC                                 |
+| Dell DRAC unknown                            | `1:3:6:f` (BB, Xbox 360, Netgear, etc)     | `DELL RAC TYPE-A`                          |                      | Dell DRAC                                 |
+| Denon AVR-S920W audio/video receiver         | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   |                                            | *mac-addr*           | Printer or network appliance (best guess) |
+| FitBit Aria smart scale                      | `1:3:6:f:42:43:d:2c`                       |                                            | `GainSpan`*mac-addr* | GainSpan IoT appliance                    |
+| FitBit Ionic fitness tracker                 | `1:3:6`                                    |                                            | `Ionic`              | FitBit Ionic                              |
+| FitBit Sense fitness tracker                 | `1:3:6`                                    |                                            | `Sense`              | FitBit Sense                              |
+| MaceView MVR-SQ80 DVR                        | `1:3:6:1c:f:c`                             |                                            | `DVR`                | Mace Security DVR                         |
+| Moxa NPort 5232 serial device server         | `1:3:4:6:2b`                               | `MOS 2.0`                                  |                      | *(Not yet classified)*                    |
+| PowerDsine PoE midspan                       | `1:3:6:2b`                                 | `midspan_ip_list` (This can be customized) |                      | PowerDsine midspan                        |
+| Rabbit Semiconductor unknown microcontroller | `1:3:2:6:c:f:45:2a:8`                      | `Rabbit-TCPIP:Z-World:DHCP-SNTP:1.0.0`     |                      | Rabbit Semiconductor microcontroller      |
+| Samsung P260 mobile phone                    | `1:3:6:c:33:3a:3b`                         |                                            |                      | Samsung mobile phone                      |
+| Unknown serial terminal server               | `1:3:6`                                    |                                            | `CAB`_*_             | Vending Terminal Server                   |
+| Wyse PCoIP thin terminal                     | `1:3:6:c:f:2a:2b`                          | `PCoIP Endpoint`                           |                      | Wyse thin terminal                        |
 
 ---
 ## Network Equipment
@@ -518,15 +525,18 @@ See 'Game Consoles' for Xbox family
 | Cisco VX Educator video endpoint           | `1:3:6:f:2a`                             | `Educator`_*_                              | Cisco Telepresence VX Educator videoconference unit |
 | **Management**                             ||||
 | Cisco Prime Infrastructure 3.x             | `1:3:6:c:f:42:43:96`                     |                                            | Cisco ADE-OS network appliance                      |
+| **Meraki**                                 ||||
+| Meraki Z3 teleworker gateway               | `1:f:3:1c:c:6:1a`                        | `MERAKI`                                   | Cisco Meraki network appliance                      |
 
 ### Aruba Networks / HPE
-| **Device/OS**            | **PRL**                         | **Vendor ID**    | **Client Class**                 |
-| :------------            | :------                         | :------------    | :---------------                 |
-| Aruba IAP205             | `1:3:4:6:c:f:1c:2a:2b:42:43:3c` | `ArubaInstantAP` | Aruba wireless network appliance |
-| Aruba AP225              | `1:3:4:6:c:f:1c:2a:2b:3c`       | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba AP325 (6.4.4.6)    | `1:3:4:6:c:f:1c:2a:2b:3c`       | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba AP325 (APBoot ROM) | `1:3:6:f:2b:3c`                 | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba S1500-12P / ARSW1512 | *(Unknown)* | `ArubaMC` | Aruba network appliance |
+| **Device/OS**              | **PRL**                            | **Vendor ID**    | **Client Class**                 |
+| :------------              | :------                            | :------------    | :---------------                 |
+| Aruba IAP205               | `1:3:4:6:c:f:1c:2a:2b:42:43:3c`    | `ArubaInstantAP` | Aruba wireless network appliance |
+| Aruba IAP224 (8.6.0)       | `1:3:4:6:c:f:1c:2a:2b:3c:42:43:94` | `ArubaInstantAP` | Aruba wireless network appliance |
+| Aruba AP225                | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba AP325 (6.4.4.6)      | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba AP325 (APBoot ROM)   | `1:3:6:f:2b:3c`                    | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba S1500-12P / ARSW1512 | *(Unknown)*                        | `ArubaMC`        | Aruba network appliance          |
 
 ### Juniper Networks
 | **Device/OS**                             | **PRL**                  | **Vendor ID**                              | **Client Class**                   |
@@ -548,7 +558,7 @@ See 'Game Consoles' for Xbox family
 | Cradlepoint wireless router                 | `1:3:6:c:f:1c:2a` (Ubiquiti, D-Link, Samsung)      | `Cradlepoint DHCP Client`   |               | Cradlepoint network appliance     |
 | Cradlepoint wireless router                 | `1:3:6:2c:f:2e:2f` (D-Link)                        |                             |               | Cradlepoint network appliance     |
 | D-Link unknown network appliance            | `1:f:3:6:2c:2e:2f:2b:4d` (Win98SE)                 | `MSFT 98`                   | `My Host`     | D-Link network appliance          |
-| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b`                        | `MSFT 5.0`                  | `DI-514`      | D-Link network appliance          |
+| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b` (Win2k)                | `MSFT 5.0`                  | `DI-514`      | D-Link network appliance          |
 | D-Link DCS-900 network camera               | `1:3:6`                                            | `MSFT 98`                   |               | D-Link network camera             |
 | D-Link unknown network camera               | `1:3:6:c:f:1c:2a` (Samsung, Ubiquiti, Cradlepoint) |                             | `DCS-`*model* | D-Link network camera             |
 | D-Link unknown network camera               | `1:3:6`                                            |                             | `DCS-`*model* | D-Link network camera             |
@@ -568,9 +578,9 @@ See 'Game Consoles' for Xbox family
 | TrendNet unknown network appliance          | *(Unknown)*                                        | `trendnet`                  |               | TrendNet network appliance        |
 | TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               | TrendNet network appliance        |
 | TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               | TrendNet network appliance        |
-| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (CradlepointD-Link, Samsung)     | `udhcp 1.11.2`              |               | *(Not yet classified)*            |
+| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               | Linux appliance                   |
 | WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      | WIZnet embedded network appliance |
-| Yealink IP phone                            | *(Unknown)*                                        | `yealink`                   |               | Yealink IP phone                  |
+| Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    | Yealink IP phone                  |
 
 ---
 ## Printers
@@ -605,7 +615,7 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                         | **PRL**                                              | **Vendor ID**               | **Hostname** | **Client Class** |
 | :------------                         | :------                                              | :------------               | :----------- | :--------------- |
 | Hewlett-Packard unknown printer       | (None)                                               |                             | `NPI`_*_     | HP printer       |
-| Hewlett-Packard unknown printer       | `1:1c:2:3:f:6:c`                                     |                             | `NPI`_*_     | HP printer       |
+| Hewlett-Packard unknown printer       | `1:3:7:2c:33:36:3a:3b:c:f:90:12`                     | `Hewlett-Packard JetDirect` |              | HP printer       |
 | Hewlett-Packard unknown printer       | `1:3:2c:6:7:c:f:16:36:3a:3b:45:12:2b`                | `Hewlett-Packard JetDirect` |              | HP printer       |
 | Hewlett-Packard unknown printer       | `1:3:2c:6:7:c:f:16:36:3a:3b:45:12:2b:77`             | `Hewlett-Packard JetDirect` |              | HP printer       |
 | Hewlett-Packard unknown printer       | `1:3:2c:6:7:c:f:16:36:3a:3b:45:12:2b:77:9a`          | `Hewlett-Packard JetDirect` |              | HP printer       |
@@ -615,54 +625,55 @@ See 'Game Consoles' for Xbox family
 | Hewlett-Packard unknown printer       | `1:3:2c:6:7:c:f:16:36:3a:3b:45:12:90:77`             | `Hewlett-Packard JetDirect` |              | HP printer       |
 | Hewlett-Packard unknown printer       | `1:3:2c:6:7:c:fc:f:16:36:3a:3b:45:12:2b:77:51:99:9a` | `Hewlett-Packard JetDirect` |              | HP printer       |
 | Hewlett-Packard unknown printer       | `1:3:2c:6:51:7:c:f:16:36:3a:3b:45:12:90`             | `Hewlett-Packard JetDirect` |              | HP printer       |
-| Hewlett-Packard unknown printer       | `1:3:7:2c:33:36:3a:3b:c:f:90:12`                     | `Hewlett-Packard JetDirect` |              | HP printer       |
+| Hewlett-Packard unknown printer       | `1:1c:2:3:f:6:c`                                     |                             | `NPI`_*_     | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d`                                    |                             | `HP`_*_      | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:c`                                  |                             |              | HP printer       |
-| Hewlett-Packard unknown printer       | `6:3:1:f:2c:c`                                       |                             | `NPI`_*_     | HP printer       |
-| Hewlett-Packard unknown printer       | `6:3:1:f:c:42:43:d:2c`                               |                             | `NPI`_*_     | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c:c:51`                            |                             | `HP`_*_      | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c:c:51:fc`                         |                             | `HP`_*_      | HP printer       |
-| Hewlett-Packard unknown printer       | `c:1:1c:3:f:6:2c`                                    |                             | `NPI`_*_     | HP printer       |
+| Hewlett-Packard unknown printer       | `6:3:1:f:2c:c`                                       |                             | `NPI`_*_     | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:c:2c:51:45:2a:2b:12:42:43:96:7`             |                             | `NPI`_*_     | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:c:2c:51:45:2b:12:42:43:96:7`                |                             | `NPI`_*_     | HP printer       |
+| Hewlett-Packard unknown printer       | `6:3:1:f:c:42:43:d:2c`                               |                             | `NPI`_*_     | HP printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c`                                 |                             | `HP`_*_      | HP Printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c`                                 |                             | `NPI`_*_     | HP Printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c:c`                               |                             | `HP`_*_      | HP Printer       |
 | Hewlett-Packard unknown printer       | `6:3:1:f:42:43:d:2c:c`                               |                             | `NPI`_*_     | HP Printer       |
+| Hewlett-Packard unknown printer       | `c:1:1c:3:f:6:2c`                                    |                             | `NPI`_*_     | HP printer       |
 
 ### Other Printers
-| **Device/OS**                        | **PRL**                                           | **Vendor ID**                                           | **Hostname** | **Client Class**                              |
-| :------------                        | :------                                           | :------------                                           | :----------- | :---------------                              |
-| Boca unknown printer                 | `1:3:2c:33:36:3a:3b:c`                            | `BOCA SYSTEMS PRINTER`                                  |              | Boca ticket printer                           |
-| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `BR`_*_      | Brother printer                               |
-| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c:2:2a`                       |                                                         | `BR`_*_      | Brother printer                               |
-| Brother unknown printer              | `6:3:1:f:42:43:d:2c:2:2a:78:7d:c`                 |                                                         | `BR`_*_      | Brother printer                               |
-| Canon MF4890 multifunction           | `1:3:6:f:c` (Roku)                                |                                                         |              | Printer or Linux media appliance (best guess) |
-| Canon unknown printer                | `1:3:6:f:45`                                      |                                                         |              | Canon printer                                 |
-| Canon unknown printer                | `1:3:c:17:6:f:2c:2f`                              |                                                         |              | Canon printer                                 |
-| Canon unknown printer                | `1:3:6:f:2c:2f`                                   |                                                         | `Canon`_*_   | Canon printer                                 |
-| Epson Artisan 725 all-in-one printer | `1:3:6:c:f:11:1c:28:29:2a`                        | `udhcp`                                                 |              | Epson printer                                 |
-| Epson unknown printer                | `1:3:6:c:f:1c:2a:28:26:17:25:27:13:1a`            |                                                         |              | Epson printer                                 |
-| Epson unknown printer                | `1:3:6:c:f:1c:33:36:3a:3b`                        |                                                         |              | Epson printer                                 |
-| Epson unknown printer                | `6:3:1:f:42:43:d:2c`                              |                                                         |              | Epson Printer                                 |
-| Konica Minolta unknown printer       | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)          |                                                         | `KMBT`_*_    | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:6:f:2c`                                      |                                                         |              | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:6:f:2c:2e`                                   |                                                         |              | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:f:2c:2e`                                     |                                                         | `KM`_*_      | Konica Minolta printer                        |
-| Kyocera unknown printer              | `1:3:f:6:2c`                                      |                                                         | `KM`_*_      | Kyocera printer                               |
-| Lexmark X204n multifunction          | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    | `Mfg=LEXMARK;Typ=MFP;Mod=Lexmark X204n;Ser=`*serial*`;` |              | Lexmark printer                               |
-| Dell unknown printer                 | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Lexmark) |                                                         | `LXK`_*_     | Lexmark printer                               |
-| Lexmark unknown printer              | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    |                                                         |              | Dell or Lexmark printer                       |
-| Muratec unknown printer              | `1:3:c:17:6:f:2a:2c:2f` (Oki)                     |                                                         |              | Muratec printer                               |
-| Océ unknown printer                  | `1:3:6:2c:c:f:4:45:46:2a`                         |                                                         | `MFP-`_*_    | Océ printer                                   |
-| Oki C330 color laser printer         | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `C330`                                                  |              | Oki printer                                   |
-| Oki MC561 multifunction              | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `MC561`                                                 |              | Oki printer                                   |
-| Panasonic UF-9000 multifunction      | `1:2:3:6:c:f:12:13:2e:2f:36:39:3a:3b`             |                                                         |              | Panasonic printer                             |
-| Ricoh Aficio MP 3351 multifunction   | `1:3:6:c:f:1c:2c:2f`                              |                                                         |              | Ricoh printer                                 |
-| Ricoh unknown printer                | `1:3:6:c:f:1c:2c:2f:cc`                           |                                                         | `RNP`_*_     | Ricoh printer                                 |
-| Ricoh unknown printer                | `1:3:6:f:1c:2c:2f`                                |                                                         | `RNP`_*_     | Ricoh printer                                 |
-| Samsung unknown printer              | `1:3:6:7:c:f:12:17:1a:2c:2e:33:36:3a:3b:4e:4f`    | `SAMSUNG Network Printer`                               |              | Samsung printer                               |
-| Star Micronics unknown printer       | `1:3:6:c:f:1c:28:29:2a`                           |                                                         | `IFBD-H`_*_  | Star Micronics printer                        |
+| **Device/OS**                        | **PRL**                                           | **Vendor ID**                                           | **Hostname**  | **Client Class**                              |
+| :------------                        | :------                                           | :------------                                           | :-----------  | :---------------                              |
+| Boca unknown printer                 | `1:3:2c:33:36:3a:3b:c`                            | `BOCA SYSTEMS PRINTER`                                  |               | Boca ticket printer                           |
+| Brother MFC-J6510DW multifunction    | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `MFC-J6510DW` | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `BR`_*_       | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c:2:2a`                       |                                                         | `BR`_*_       | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:2c:2:2a:78:7d:c`                 |                                                         | `BR`_*_       | Brother printer                               |
+| Canon MF4890 multifunction           | `1:3:6:f:c` (Roku)                                |                                                         |               | Printer or Linux media appliance (best guess) |
+| Canon unknown printer                | `1:3:6:f:2c:2f`                                   |                                                         | `Canon`_*_    | Canon printer                                 |
+| Canon unknown printer                | `1:3:6:f:45`                                      |                                                         |               | Canon printer                                 |
+| Canon unknown printer                | `1:3:c:17:6:f:2c:2f`                              |                                                         |               | Canon printer                                 |
+| Epson Artisan 725 all-in-one printer | `1:3:6:c:f:11:1c:28:29:2a`                        | `udhcp`                                                 |               | Epson printer                                 |
+| Epson unknown printer                | `1:3:6:c:f:1c:2a:28:26:17:25:27:13:1a`            |                                                         |               | Epson printer                                 |
+| Epson unknown printer                | `1:3:6:c:f:1c:33:36:3a:3b`                        |                                                         |               | Epson printer                                 |
+| Epson unknown printer                | `6:3:1:f:42:43:d:2c`                              |                                                         |               | Epson Printer                                 |
+| Konica Minolta unknown printer       | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)          |                                                         | `KMBT`_*_     | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:6:f:2c`                                      |                                                         |               | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:6:f:2c:2e`                                   |                                                         |               | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:f:2c:2e`                                     |                                                         | `KM`_*_       | Konica Minolta printer                        |
+| Kyocera unknown printer              | `1:3:f:6:2c`                                      |                                                         | `KM`_*_       | Kyocera printer                               |
+| Lexmark X204n multifunction          | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    | `Mfg=LEXMARK;Typ=MFP;Mod=Lexmark X204n;Ser=`*serial*`;` |               | Lexmark printer                               |
+| Dell unknown printer                 | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Lexmark) |                                                         | `LXK`_*_      | Lexmark printer                               |
+| Lexmark unknown printer              | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    |                                                         |               | Dell or Lexmark printer                       |
+| Muratec unknown printer              | `1:3:c:17:6:f:2a:2c:2f` (Oki)                     |                                                         |               | Muratec printer                               |
+| Océ unknown printer                  | `1:3:6:2c:c:f:4:45:46:2a`                         |                                                         | `MFP-`_*_     | Océ printer                                   |
+| Oki C330 color laser printer         | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `C330`                                                  |               | Oki printer                                   |
+| Oki MC561 multifunction              | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `MC561`                                                 |               | Oki printer                                   |
+| Panasonic UF-9000 multifunction      | `1:2:3:6:c:f:12:13:2e:2f:36:39:3a:3b`             |                                                         |               | Panasonic printer                             |
+| Ricoh Aficio MP 3351 multifunction   | `1:3:6:c:f:1c:2c:2f`                              |                                                         |               | Ricoh printer                                 |
+| Ricoh unknown printer                | `1:3:6:c:f:1c:2c:2f:cc`                           |                                                         | `RNP`_*_      | Ricoh printer                                 |
+| Ricoh unknown printer                | `1:3:6:f:1c:2c:2f`                                |                                                         | `RNP`_*_      | Ricoh printer                                 |
+| Samsung unknown printer              | `1:3:6:7:c:f:12:17:1a:2c:2e:33:36:3a:3b:4e:4f`    | `SAMSUNG Network Printer`                               |               | Samsung printer                               |
+| Star Micronics unknown printer       | `1:3:6:c:f:1c:28:29:2a`                           |                                                         | `IFBD-H`_*_   | Star Micronics printer                        |
 
 ---
 ## Long PRL
