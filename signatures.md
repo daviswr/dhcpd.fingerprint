@@ -346,9 +346,9 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | **Google Android 10**                                ||||
 | Android 10.x                                         | *(Unknown)*                             | `android-dhcp-10`*version*                                                          | Google Android 10                                      |
 | **Google Android 11**                                ||||
-| Android 11.x                                         | *(Unknown)*                             | `android-dhcp-11``*version*                                                         | Google Android 11                                      |
+| Android 11.x                                         | *(Unknown)*                             | `android-dhcp-11`*version*                                                          | Google Android 11                                      |
 | **Google Android 12**                                ||||
-| Android 12.x                                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12``*version*                                                         | Google Android 12                                      |
+| Android 12.x                                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`*version*                                                          | Google Android 12                                      |
 
 ## Unix
 | **Device/OS**                     | **PRL**                                   | **Vendor ID**  | **Client Class**              |
