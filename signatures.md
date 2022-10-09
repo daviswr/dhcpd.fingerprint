@@ -6,6 +6,8 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 
 **Vendor ID** - DHCP Option 60, Vendor Class Identifier
 
+**Vendor OUI** - First 24 bits of client MAC address
+
 ---
 ## Apple
 ### Apple Mac OS
@@ -37,6 +39,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 | Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
 | Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
+
 ### Apple iOS
 | **Device/OS**                    | **PRL**                  | **Vendor ID** | **Client Class**  |
 | :------------                    | :------                  | :------------ | :---------------  |
@@ -123,68 +126,71 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | SystemRescue 9.04 (Arch-based)                  | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue                                    |
 
 ### Linux Appliances
-| **Device/OS**                                | **PRL**                                   | **Vendor ID**                                                | **Hostname**    | **Client Class**                                     |
-| :------------                                | :------                                   | :------------                                                | :-----------    | :---------------                                     |
-| **Media Appliances**                         |||||
-| Samsung BD-P1500 Blu-ray player              | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.12-3.1-v10r15_340-uclibc-brcm 7440b0`             |                 | Linux media appliance                                |
-| WD TV Live Streaming Media Player (1.04.12)  | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.22.19-49-4 mips`                                  |                 | Linux media appliance                                |
-| Unknown appliance                            | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.14.398 armv4l`                                    |                 | Linux media appliance                                |
-| Unknown appliance, possibly Vizio            | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.18-7.2 3548b0-smp`                                |                 | Linux media appliance                                |
-| Unknown appliance, possibly Samsung          | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.28.9 7630`                                        |                 | Linux media appliance                                |
-| Vizio unknown media appliance                | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `VIZIO VIA`                                                  |                 | Vizio media appliance (Linux)                        |
-| Rise Display                                 | `1:3:6:c:f:1c`                            |                                                              | `RISE-`_*_      | Rise Display media appliance (Linux)                 |
-| Samsung unknown media appliance              | `1:3:6:c:f:1c:2a`                         | `udhcp `*version*`-VD Linux VDLinux.`*version*               |                 | Samsung media appliance (Linux)                      |
-| Samsung unknown media appliance              | `1:3:6:c:f:1c:2a:7d`                      | `udhcp `*version*`-VD Linux VDLinux.`*version*               |                 | Samsung media appliance (Linux)                      |
-| LG BP220 Blu-ray player                      | `1:3:6:c:f:1c:28:29:2a`                   | `udhcp 0.9.9-pre`                                            |                 | Linux appliance                                      |
-| Sony SNC-RH124 IP camera                     | `1:3:6:c:f:1c:28:29:2a`                   | `udhcp 0.9.9-pre`                                            |                 | Linux appliance                                      |
-| Roku 2 XS (3100X)                            | `1:3:6:f:c`                               |                                                              |                 | Printer or Linux media appliance (best guess)        |
-| Sony Bravia KDL-40EX523 TV                   | `1:3:6:f:1c:c:7:9:2a:30:31`               |                                                              |                 | Sony media appliance (Linux)                         |
-| Sharp Aquos TV                               | `1:3:6:36`                                |                                                              |                 | Sharp media appliance                                |
-| LG Infinia 47LE8500 TV                       | `1:3:f:6:c:1c`                            |                                                              |                 | LG media appliance (Linux)                           |
-| TiVo Roamio                                  | `1:1c:2:3:f:6:c`                          |                                                              | `TIVO-`*serial* | TiVo media appliance (Linux)                         |
-| Unknown appliance, possibly Vizio            | `1:79:21:3:6:c:f:1a:1c:2a:33:36:3a:3b:77` | `dhcpcd-5.2.10:Linux-2.6.28.9:7631:BCM97xxx Settop Platform` |                 | Linux media appliance                                |
-| **SOHO Network Appliances**                  |||||
-| Asus unknown network appliance               | `1:3:6:c:f:1c:28:29:2a:79` (Linksys)      | `udhcp 0.9.9-pre`                                            |                 | Asus or Linksys network appliance (Linux)            |
-| Asus unknown network appliance               | `1:3:6:c:f:1c:2a:79:21:f9`                | `udhcp 1.17.4`                                               |                 | Asus network appliance (Linux)                       |
-| Belkin unknown network appliance             | `1:3:6:c:f:1c:21:2c`                      |                                                              |                 | Belkin network appliance (Linux)                     |
-| Belkin unknown network appliance             | `1:3:79:6:c:f:1c:32:21`                   |                                                              |                 | Belkin network appliance (Linux)                     |
-| Belkin unknown network appliance             | `1:3:6:c:f:1c:32:21`                      | `udhcp 0.9.7`                                                |                 | Apple or Belkin network appliance (Linux)            |
-| D-Link DIR-605L wireless router              | `1:3:6:c:f:1c:2c:2e:2f`                   |                                                              |                 | D-Link network appliance (Linux)                     |
-| D-Link DIR-615 wireless router               | `1:3:6:2c:f:2e:2f` (Cradlepoint)          |                                                              | `DIR-`_*_       | D-Link network appliance (Linux)                     |
-| D-Link DIR-615 wireless router               | `1:3:6:c:f:1c:28:29:2a:2c:2e:2f`          |                                                              |                 | D-Link network appliance (Linux)                     |
-| D-Link DIR-655 wireless router               | `1:3:6:c:f:1c:21:28:29:2a:2c:2e:2f`       |                                                              |                 | D-Link network appliance (Linux)                     |
-| D-Link DI-624 wireless router                | `1:3:6:f` (Xbox, DRAC, Netgear, etc)      | `MSFT 98`                                                    |                 | D-Link network appliance (Linux)                     |
-| D-Link WBR-1310 wireless router              | `1:3:6:f` (Xbox, DRAC, Netgear, etc)      | `MSFT 98`                                                    |                 | D-Link network appliance (Linux)                     |
-| Linksys WRT54-GL v1.1 (Tomato 1.28)          | `1:3:6:c:f:1c:2a`                         | `udhcp 1.14.4`                                               |                 | Linux appliance                                      |
-| Linksys BEFSR41v3 router (1.05.00)           | `1:f:3:6:2c:2e:2f`                        |                                                              |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:f:6`                                 |                                                              | `Cisco`_*_      | Linksys network appliance                            |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:d4`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:79`                      | `udhcp 1.15.2`                                               |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2c`                         | `udhcp 0.9.8`                                                |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:2c:21:f9 `                  | `udhcp 0.9.8`                                                |                 | Linksys network appliance (Linux)                    |
-| Linksys unknown network appliance            | `1:3:6:c:f:1c:28:29:2a:79` (Asus)         | `udhcp 0.9.9-pre`                                            |                 | Asus or Linksys network appliance (Linux)            |
-| Netgear RP614v4 router                       | `1:3:6:c:f:1c`                            | `udhcp 0.9.9-pre`                                            | `RP614v4`       | Netgear network appliance (Linux)                    |
-| Netgear WNR2000 wireless router              | `1:3:6:c:f:1c:21:79`                      | `udhcp 0.9.9-pre`                                            |                 | Netgear network appliance (Linux)                    |
-| Netgear WNR2000v2 wireless router            | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WGR614v9 wireless router             | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WGR614v10 wireless router            | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WGR614v10 wireless router            | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WNR1000v3 wireless router            | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WNDR3400 wireless router             | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WPN824N wireless router              | `1:79:3:6:c:f:1c:21`                      | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WNR2000v3 wireless router            | `1:79:3:6:c:f:1c:21`                      | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WNR2000v4 wireless router            | `1:79:f9:3:6:c:f:1c:21:2b`                | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WNDR3700v4 wireless router           | `1:79:f9:3:6:c:f:1c:21:2b`                | `udhcp 0.9.8`                                                |                 | Netgear network appliance (Linux)                    |
-| Netgear WPN824 wireless router               | `3:1:6:f:c`                               |                                                              |                 | Netgear network appliance (Linux)                    |
-| TP-Link WR720N wireless router               | `1:3:6:f:21:2b:2c:2e:2f:79:f9`            |                                                              |                 | TP-Link network appliance (Linux)                    |
-| Western Digital MyNet N600 wireless router   | `1:3:6:f:21:2c:2e:2f:79:f9:2b`            |                                                              |                 | Western Digital network appliance (Linux)            |
-| **Other Appliances**                         |||||
-| Amazon Kindle Paperwhite                     | `1:3:6:c:f:1c:2a`                         | `udhcp 1.17.1`                                               |                 | Linux appliance                                      |
-| Dell Data Protection                         | `1:3:6:c:f:1c:2a`                         | `udhcp 1.20.2`                                               |                 | Linux appliance                                      |
-| HID VertX (CBORD Squadron) access controller | `1:3:6:f:1c:2a:e0:e1:e2:e3`               | `CSGold Squadron`                                            |                 | HID VertX / CBORD Squadron access controller (Linux) |
-| StarDot NetCam XL                            | `1:3:6:c:f:1c:2a:28`                      | `uClinux 2.0.39.1 m68knommu`                                 |                 | uClinux (Embedded/Microcontroller Linux)             |
-| Unknown Linux appliance                      | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a:77` | `Linux 2.6.18_pro500-hermes-hd_oste ppc`                     |                 | Linux appliance                                      |
-
+| **Device/OS**                                | **PRL**                                   | **Vendor ID**                                                | **Hostname**    | **Vendor OUI** | **Client Class**                                     |
+| :------------                                | :------                                   | :------------                                                | :-----------    | :------------- | :---------------                                     |
+| **Media Appliances**                         ||||||
+| Samsung BD-P1500 Blu-ray player              | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.12-3.1-v10r15_340-uclibc-brcm 7440b0`             |                 |                | Linux media appliance                                |
+| WD TV Live Streaming Media Player (1.04.12)  | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.22.19-49-4 mips`                                  |                 |                | Linux media appliance                                |
+| Unknown appliance                            | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.14.398 armv4l`                                    |                 |                | Linux media appliance                                |
+| Unknown appliance, possibly Vizio            | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.18-7.2 3548b0-smp`                                |                 |                | Linux media appliance                                |
+| Unknown appliance, possibly Samsung          | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `Linux 2.6.28.9 7630`                                        |                 |                | Linux media appliance                                |
+| Vizio unknown media appliance                | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a`    | `VIZIO VIA`                                                  |                 |                | Vizio media appliance (Linux)                        |
+| CTRing DVR                                   | `1:3:6:c:f:1c`                            |                                                              |                 | `0:1E:C6`      | CTRing DVR (Linux)                                   |
+| EverFocus video device                       | `1:3:6:c:f:1c`                            |                                                              |                 | `0:11:14`      | EverFocus / Honeywell DVR or camera (Linux)          |
+| Pinetron DVR                                 | `1:3:6:c:f:1c`                            |                                                              |                 | `0:2:f1`       | Pinetron DVR (Linux)                                 |
+| Rise Display                                 | `1:3:6:c:f:1c`                            |                                                              | `RISE-`_*_      |                | Rise Display media appliance (Linux)                 |
+| Samsung unknown media appliance              | `1:3:6:c:f:1c:2a`                         | `udhcp `*version*`-VD Linux VDLinux.`*version*               |                 |                | Samsung media appliance (Linux)                      |
+| Samsung unknown media appliance              | `1:3:6:c:f:1c:2a:7d`                      | `udhcp `*version*`-VD Linux VDLinux.`*version*               |                 |                | Samsung media appliance (Linux)                      |
+| LG BP220 Blu-ray player                      | `1:3:6:c:f:1c:28:29:2a`                   | `udhcp 0.9.9-pre`                                            |                 |                | Linux media appliance                                |
+| Sony SNC-RH124 IP camera                     | `1:3:6:c:f:1c:28:29:2a`                   | `udhcp 0.9.9-pre`                                            |                 |                | Linux media appliance                                |
+| Roku 2 XS (3100X)                            | `1:3:6:f:c`                               |                                                              |                 |                | Printer or Linux media appliance (best guess)        |
+| Sony Bravia KDL-40EX523 TV                   | `1:3:6:f:1c:c:7:9:2a:30:31`               |                                                              |                 |                | Sony media appliance (Linux)                         |
+| Sharp Aquos TV                               | `1:3:6:36`                                |                                                              |                 |                | Sharp media appliance                                |
+| LG Infinia 47LE8500 TV                       | `1:3:f:6:c:1c`                            |                                                              |                 |                | LG media appliance (Linux)                           |
+| TiVo Roamio                                  | `1:1c:2:3:f:6:c`                          |                                                              | `TIVO-`*serial* |                | TiVo media appliance (Linux)                         |
+| Unknown appliance, possibly Vizio            | `1:79:21:3:6:c:f:1a:1c:2a:33:36:3a:3b:77` | `dhcpcd-5.2.10:Linux-2.6.28.9:7631:BCM97xxx Settop Platform` |                 |                | Linux media appliance                                |
+| **SOHO Network Appliances**                  ||||||
+| Asus unknown network appliance               | `1:3:6:c:f:1c:28:29:2a:79` (Linksys)      | `udhcp 0.9.9-pre`                                            |                 |                | Asus or Linksys network appliance (Linux)            |
+| Asus unknown network appliance               | `1:3:6:c:f:1c:2a:79:21:f9`                | `udhcp 1.17.4`                                               |                 |                | Asus network appliance (Linux)                       |
+| Belkin unknown network appliance             | `1:3:6:c:f:1c:21:2c`                      |                                                              |                 |                | Belkin network appliance (Linux)                     |
+| Belkin unknown network appliance             | `1:3:79:6:c:f:1c:32:21`                   |                                                              |                 |                | Belkin network appliance (Linux)                     |
+| Belkin unknown network appliance             | `1:3:6:c:f:1c:32:21`                      | `udhcp 0.9.7`                                                |                 |                | Apple or Belkin network appliance (Linux)            |
+| D-Link DIR-605L wireless router              | `1:3:6:c:f:1c:2c:2e:2f`                   |                                                              |                 |                | D-Link network appliance (Linux)                     |
+| D-Link DIR-615 wireless router               | `1:3:6:2c:f:2e:2f` (Cradlepoint)          |                                                              | `DIR-`_*_       |                | D-Link network appliance (Linux)                     |
+| D-Link DIR-615 wireless router               | `1:3:6:c:f:1c:28:29:2a:2c:2e:2f`          |                                                              |                 |                | D-Link network appliance (Linux)                     |
+| D-Link DIR-655 wireless router               | `1:3:6:c:f:1c:21:28:29:2a:2c:2e:2f`       |                                                              |                 |                | D-Link network appliance (Linux)                     |
+| D-Link DI-624 wireless router                | `1:3:6:f` (Xbox, DRAC, Netgear, etc)      | `MSFT 98`                                                    |                 |                | D-Link network appliance (Linux)                     |
+| D-Link WBR-1310 wireless router              | `1:3:6:f` (Xbox, DRAC, Netgear, etc)      | `MSFT 98`                                                    |                 |                | D-Link network appliance (Linux)                     |
+| Linksys WRT54-GL v1.1 (Tomato 1.28)          | `1:3:6:c:f:1c:2a`                         | `udhcp 1.14.4`                                               |                 |                | Linux appliance                                      |
+| Linksys BEFSR41v3 router (1.05.00)           | `1:f:3:6:2c:2e:2f`                        |                                                              |                 |                | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:f:6`                                 |                                                              | `Cisco`_*_      |                | Linksys network appliance                            |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:d4`                      | `udhcp 1.15.2`                                               |                 |                | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2a:79`                      | `udhcp 1.15.2`                                               |                 |                | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2c`                         | `udhcp 0.9.8`                                                |                 |                | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:2c:21:f9 `                  | `udhcp 0.9.8`                                                |                 |                | Linksys network appliance (Linux)                    |
+| Linksys unknown network appliance            | `1:3:6:c:f:1c:28:29:2a:79` (Asus)         | `udhcp 0.9.9-pre`                                            |                 |                | Asus or Linksys network appliance (Linux)            |
+| Netgear RP614v4 router                       | `1:3:6:c:f:1c`                            | `udhcp 0.9.9-pre`                                            | `RP614v4`       |                | Netgear network appliance (Linux)                    |
+| Netgear WNR2000 wireless router              | `1:3:6:c:f:1c:21:79`                      | `udhcp 0.9.9-pre`                                            |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNR2000v2 wireless router            | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WGR614v9 wireless router             | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WGR614v10 wireless router            | `1:3:6:c:f:1c:21:2c:79`                   | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WGR614v10 wireless router            | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNR1000v3 wireless router            | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNDR3400 wireless router             | `1:3:6:c:f:1c:21:2c:79:f9`                | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WPN824N wireless router              | `1:79:3:6:c:f:1c:21`                      | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNR2000v3 wireless router            | `1:79:3:6:c:f:1c:21`                      | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNR2000v4 wireless router            | `1:79:f9:3:6:c:f:1c:21:2b`                | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WNDR3700v4 wireless router           | `1:79:f9:3:6:c:f:1c:21:2b`                | `udhcp 0.9.8`                                                |                 |                | Netgear network appliance (Linux)                    |
+| Netgear WPN824 wireless router               | `3:1:6:f:c`                               |                                                              |                 |                | Netgear network appliance (Linux)                    |
+| TP-Link WR720N wireless router               | `1:3:6:f:21:2b:2c:2e:2f:79:f9`            |                                                              |                 |                | TP-Link network appliance (Linux)                    |
+| Western Digital MyNet N600 wireless router   | `1:3:6:f:21:2c:2e:2f:79:f9:2b`            |                                                              |                 |                | Western Digital network appliance (Linux)            |
+| **Other Appliances**                         ||||||
+| Amazon Kindle Paperwhite                     | `1:3:6:c:f:1c:2a`                         | `udhcp 1.17.1`                                               |                 |                | Linux appliance                                      |
+| Dell Data Protection                         | `1:3:6:c:f:1c:2a`                         | `udhcp 1.20.2`                                               |                 |                | Linux appliance                                      |
+| HID VertX (CBORD Squadron) access controller | `1:3:6:f:1c:2a:e0:e1:e2:e3`               | `CSGold Squadron`                                            |                 |                | HID VertX / CBORD Squadron access controller (Linux) |
+| Obvius data acquisition device               | `1:3:6:c:f:1c`                            |                                                              |                 | `00:1E:C6`     | Obvius data acquisition appliance (Linux)            |
+| StarDot NetCam XL                            | `1:3:6:c:f:1c:2a:28`                      | `uClinux 2.0.39.1 m68knommu`                                 |                 |                | uClinux (Embedded/Microcontroller Linux)             |
+| Unknown Linux appliance                      | `1:3:6:c:f:11:17:1c:1d:1f:21:28:29:2a:77` | `Linux 2.6.18_pro500-hermes-hd_oste ppc`                     |                 |                | Linux appliance                                      |
 ### Mobile Linux
 | **Device/OS**                                        | **PRL**                                 | **Vendor ID**                                                                       | **Hostname**          | **Client Class**                                       |
 | :------------                                        | :------                                 | :------------                                                                       | :-----------          | :---------------                                       |
@@ -459,29 +465,30 @@ See 'Game Consoles' for Xbox family
 
 ---
 ## Other Appliances
-| **Device/OS**                                | **PRL**                                    | **Vendor ID**                              | **Hostname**         | **Client Class**                          |
-| :------------                                | :------                                    | :------------                              | :-----------         | :---------------                          |
-| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2b:3a:3b:2a:2:c`          | `APC` (This can be customized)             |                      | APC UPS                                   |
-| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2c:2b:3a:3b:2a:2:c`       | `APC` (This can be customized)             |                      | APC UPS                                   |
-| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `BlackBerry`                               |                      | BlackBerry                                |
-| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `FSVDSL.UMA.RIM.BlackBerry`                |                      | BlackBerry                                |
-| BlackBerry PlayBook (BB Tablet OS 2)         | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry Tablet OS 2.`*version*         |                      | BlackBerry PlayBook                       |
-| BlackBerry 10 unknown                        | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry OS 10.`*version*               |                      | BlackBerry 10                             |
-| Broadcom iSCSI offload engine                | `1:3:33:36`                                | `brcmftsk`                                 |                      | Broadcom iSCSI offload engine             |
-| ClearOne Converge                            | `1:1c:3:6:f:2:2a:4:42`                     |                                            | `CONVERGE`_*_        | ClearOne Converge media appliance         |
-| Dell iDRAC 6                                 | `1:3:6:c:f:1c:28:29:2a:2b:77` (Some udhcp) | `iDRAC`                                    |                      | Dell DRAC                                 |
-| Dell DRAC unknown                            | `1:3:6:f` (BB, Xbox 360, Netgear, etc)     | `DELL RAC TYPE-A`                          |                      | Dell DRAC                                 |
-| Denon AVR-S920W audio/video receiver         | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   |                                            | *mac-addr*           | Printer or network appliance (best guess) |
-| FitBit Aria smart scale                      | `1:3:6:f:42:43:d:2c`                       |                                            | `GainSpan`*mac-addr* | GainSpan IoT appliance                    |
-| FitBit Ionic fitness tracker                 | `1:3:6`                                    |                                            | `Ionic`              | FitBit Ionic                              |
-| FitBit Sense fitness tracker                 | `1:3:6`                                    |                                            | `Sense`              | FitBit Sense                              |
-| MaceView MVR-SQ80 DVR                        | `1:3:6:1c:f:c`                             |                                            | `DVR`                | Mace Security DVR                         |
-| Moxa NPort 5232 serial device server         | `1:3:4:6:2b`                               | `MOS 2.0`                                  |                      | *(Not yet classified)*                    |
-| PowerDsine PoE midspan                       | `1:3:6:2b`                                 | `midspan_ip_list` (This can be customized) |                      | PowerDsine midspan                        |
-| Rabbit Semiconductor unknown microcontroller | `1:3:2:6:c:f:45:2a:8`                      | `Rabbit-TCPIP:Z-World:DHCP-SNTP:1.0.0`     |                      | Rabbit Semiconductor microcontroller      |
-| Samsung P260 mobile phone                    | `1:3:6:c:33:3a:3b`                         |                                            |                      | Samsung mobile phone                      |
-| Unknown serial terminal server               | `1:3:6`                                    |                                            | `CAB`_*_             | Vending Terminal Server                   |
-| Wyse PCoIP thin terminal                     | `1:3:6:c:f:2a:2b`                          | `PCoIP Endpoint`                           |                      | Wyse thin terminal                        |
+| **Device/OS**                                | **PRL**                                    | **Vendor ID**                              | **Hostname**         | **Vendor OUI** | **Client Class**                          |
+| :------------                                | :------                                    | :------------                              | :-----------         | :------------- | :---------------                          |
+| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2b:3a:3b:2a:2:c`          | `APC` (This can be customized)             |                      |                | APC UPS                                   |
+| APC Smart-UPS RT 5000 XL                     | `6:3:1:f:42:43:d:2c:2b:3a:3b:2a:2:c`       | `APC` (This can be customized)             |                      |                | APC UPS                                   |
+| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `BlackBerry`                               |                      |                | BlackBerry                                |
+| BlackBerry unknown                           | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   | `FSVDSL.UMA.RIM.BlackBerry`                |                      |                | BlackBerry                                |
+| BlackBerry PlayBook (BB Tablet OS 2)         | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry Tablet OS 2.`*version*         |                      |                | BlackBerry PlayBook                       |
+| BlackBerry 10 unknown                        | `1:1c:2:3:f:6:c` (ISC dhclient default)    | `BlackBerry OS 10.`*version*               |                      |                | BlackBerry 10                             |
+| Broadcom iSCSI offload engine                | `1:3:33:36`                                | `brcmftsk`                                 |                      |                | Broadcom iSCSI offload engine             |
+| ClearOne Converge                            | `1:1c:3:6:f:2:2a:4:42`                     |                                            | `CONVERGE`_*_        |                | ClearOne Converge media appliance         |
+| Dell iDRAC 6                                 | `1:3:6:c:f:1c:28:29:2a:2b:77` (Some udhcp) | `iDRAC`                                    |                      |                | Dell DRAC                                 |
+| Dell DRAC unknown                            | `1:3:6:f` (BB, Xbox 360, Netgear, etc)     | `DELL RAC TYPE-A`                          |                      |                | Dell DRAC                                 |
+| Denon AVR-S920W audio/video receiver         | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)   |                                            | *mac-addr*           |                | Printer or network appliance (best guess) |
+| FitBit Aria smart scale                      | `1:3:6:f:42:43:d:2c`                       |                                            | `GainSpan`*mac-addr* |                | GainSpan IoT appliance                    |
+| FitBit Ionic fitness tracker                 | `1:3:6`                                    |                                            | `Ionic`              |                | FitBit Ionic                              |
+| FitBit Sense fitness tracker                 | `1:3:6`                                    |                                            | `Sense`              |                | FitBit Sense                              |
+| Geist environmental monitor                  | `1:3:6:c:f:1c:2a:28:26:17:25:26:27:13:1a`  |                                            |                      | `0:40:9d`      | Geist environmental monitor               |
+| MaceView MVR-SQ80 DVR                        | `1:3:6:1c:f:c`                             |                                            | `DVR`                |                | Mace Security DVR                         |
+| Moxa NPort 5232 serial device server         | `1:3:4:6:2b`                               | `MOS 2.0`                                  |                      |                | *(Not yet classified)*                    |
+| PowerDsine PoE midspan                       | `1:3:6:2b`                                 | `midspan_ip_list` (This can be customized) |                      |                | PowerDsine midspan                        |
+| Rabbit Semiconductor unknown microcontroller | `1:3:2:6:c:f:45:2a:8`                      | `Rabbit-TCPIP:Z-World:DHCP-SNTP:1.0.0`     |                      |                | Rabbit Semiconductor microcontroller      |
+| Samsung P260 mobile phone                    | `1:3:6:c:33:3a:3b`                         |                                            |                      |                | Samsung mobile phone                      |
+| Unknown serial terminal server               | `1:3:6`                                    |                                            | `CAB`_*_             |                | Vending Terminal Server                   |
+| Wyse PCoIP thin terminal                     | `1:3:6:c:f:2a:2b`                          | `PCoIP Endpoint`                           |                      |                | Wyse thin terminal                        |
 
 ---
 ## Network Equipment
@@ -550,39 +557,39 @@ See 'Game Consoles' for Xbox family
 | Juniper Junos 12.3 - SRX-210HE2           | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
 
 ### Other Network
-| **Device/OS**                               | **PRL**                                            | **Vendor ID**               | **Hostname**  | **Client Class**                  |
-| :------------                               | :------                                            | :------------               | :-----------  | :---------------                  |
-| 3com CDSG10PWR (HP 1905-10G-POE) switch     | `1:3:42:43:36:3d:81:6:f`                           |                             |               | HP (3com) network appliance       |
-| ActionTec Wireless Broadband Router         | `1:1c:2:3:f:6:4:7:17:1a:2b:32:33:36:37:3c:3d:48`   | `Wireless Broadband Router` |               | Actiontec network appliance       |
-| Airvana HubBub (Sprint Airave) femtocell    | `1:3:6:c:f:1c` (TrendNet)                          | `udhcp 0.9.7`               |               | Airvana network appliance         |
-| Belkin unknown network appliance            | `1:3:6:f`                                          |                             | `SC`_*_       | Belkin network appliance          |
-| Belkin unknown network appliance            | `3:1:6:f:79`                                       |                             |               | Apple or Belkin network appliance |
-| Cradlepoint wireless router                 | `1:3:6:c:f:1c:2a` (Ubiquiti, D-Link, Samsung)      | `Cradlepoint DHCP Client`   |               | Cradlepoint network appliance     |
-| Cradlepoint wireless router                 | `1:3:6:2c:f:2e:2f` (D-Link)                        |                             |               | Cradlepoint network appliance     |
-| D-Link unknown network appliance            | `1:f:3:6:2c:2e:2f:2b:4d` (Win98SE)                 | `MSFT 98`                   | `My Host`     | D-Link network appliance          |
-| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b` (Win2k)                | `MSFT 5.0`                  | `DI-514`      | D-Link network appliance          |
-| D-Link DCS-900 network camera               | `1:3:6`                                            | `MSFT 98`                   |               | D-Link network camera             |
-| D-Link unknown network camera               | `1:3:6:c:f:1c:2a` (Samsung, Ubiquiti, Cradlepoint) |                             | `DCS-`*model* | D-Link network camera             |
-| D-Link unknown network camera               | `1:3:6`                                            |                             | `DCS-`*model* | D-Link network camera             |
-| Delta Networks unknown appliance            | `1:3:6:f:2c:2e:2f:39` (Win98)                      |                             | `RAS`         | Delta Networks network appliance  |
-| Linksys unknown network appliance           | `1:3:f:6:d4`                                       |                             |               | Linksys network appliance         |
-| Linksys unknown network appliance           | `1:1c:3:6:f:2c`                                    |                             |               | Linksys network appliance         |
-| Linksys SPA-2102 voice gateway/router       | `1:3:2a:6:7:f:3a:3b:2c:42`                         | `LINKSYS SPA-2102`          |               | Linksys network appliance         |
-| NEC DT700 IP phone                          | `1:3:c:6:f:42:45:46:5f:78:8d:97:a2:2b`             | `NECDT700`                  |               | NEC IP phone                      |
-| Netgear RP614v3 router                      | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             |               | Printer or network appliance      |
-| Netgear FR114P firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FR114P`      | Netgear network appliance         |
-| Netgear FVS114 firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FVS114`      | Netgear network appliance         |
-| QLogic SANbox 5202 Fibre-Channel switch     | `1:1c:3`                                           |                             |               | QLogic network appliance (Linux)  |
-| TP-Link TL-WR541G/542G wireless router      | `1:3:2b:2c:2e:2f:6:21:79:f9`                       | `MSFT 98`                   |               | TP-Link network appliance         |
-| TP-Link unknown network appliance           | `1:3:2b:2c:2e:2f:6`                                | `MSFT 98`                   |               | TP-Link network appliance         |
-| TrendNet TW100-S4W1CA router                | `1:3:6:c:f:1c` (Airvana)                           | `TW100-S4W1CA`              |               | TrendNet network appliance        |
-| TrendNet TEW-654TR wireless router          | *(Unknown)*                                        | `TEW-654TR`                 |               | TrendNet network appliance        |
-| TrendNet unknown network appliance          | *(Unknown)*                                        | `trendnet`                  |               | TrendNet network appliance        |
-| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               | TrendNet network appliance        |
-| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               | TrendNet network appliance        |
-| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               | Linux appliance                   |
-| WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      | WIZnet embedded network appliance |
-| Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    | Yealink IP phone                  |
+| **Device/OS**                               | **PRL**                                            | **Vendor ID**               | **Hostname**  | **Vendor OUI** | **Client Class**                  |
+| :------------                               | :------                                            | :------------               | :-----------  | :------------- | :---------------                  |
+| 3com CDSG10PWR (HP 1905-10G-POE) switch     | `1:3:42:43:36:3d:81:6:f`                           |                             |               |                | HP (3com) network appliance       |
+| ActionTec Wireless Broadband Router         | `1:1c:2:3:f:6:4:7:17:1a:2b:32:33:36:37:3c:3d:48`   | `Wireless Broadband Router` |               |                | Actiontec network appliance       |
+| Airvana HubBub (Sprint Airave) femtocell    | `1:3:6:c:f:1c` (TrendNet)                          | `udhcp 0.9.7`               |               | `0:5:b9`       | Airvana network appliance         |
+| Belkin unknown network appliance            | `1:3:6:f`                                          |                             | `SC`_*_       |                | Belkin network appliance          |
+| Belkin unknown network appliance            | `3:1:6:f:79`                                       |                             |               |                | Apple or Belkin network appliance |
+| Cradlepoint wireless router                 | `1:3:6:c:f:1c:2a` (Ubiquiti, D-Link, Samsung)      | `Cradlepoint DHCP Client`   |               |                | Cradlepoint network appliance     |
+| Cradlepoint wireless router                 | `1:3:6:2c:f:2e:2f` (D-Link)                        |                             |               |                | Cradlepoint network appliance     |
+| D-Link unknown network appliance            | `1:f:3:6:2c:2e:2f:2b:4d` (Win98SE)                 | `MSFT 98`                   | `My Host`     |                | D-Link network appliance          |
+| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b` (Win2k)                | `MSFT 5.0`                  | `DI-514`      |                | D-Link network appliance          |
+| D-Link DCS-900 network camera               | `1:3:6`                                            | `MSFT 98`                   |               |                | D-Link network camera             |
+| D-Link unknown network camera               | `1:3:6:c:f:1c:2a` (Samsung, Ubiquiti, Cradlepoint) |                             | `DCS-`*model* |                | D-Link network camera             |
+| D-Link unknown network camera               | `1:3:6`                                            |                             | `DCS-`*model* |                | D-Link network camera             |
+| Delta Networks unknown appliance            | `1:3:6:f:2c:2e:2f:39` (Win98)                      |                             | `RAS`         |                | Delta Networks network appliance  |
+| Linksys unknown network appliance           | `1:3:f:6:d4`                                       |                             |               |                | Linksys network appliance         |
+| Linksys unknown network appliance           | `1:1c:3:6:f:2c`                                    |                             |               |                | Linksys network appliance         |
+| Linksys SPA-2102 voice gateway/router       | `1:3:2a:6:7:f:3a:3b:2c:42`                         | `LINKSYS SPA-2102`          |               |                | Linksys network appliance         |
+| NEC DT700 IP phone                          | `1:3:c:6:f:42:45:46:5f:78:8d:97:a2:2b`             | `NECDT700`                  |               |                | NEC IP phone                      |
+| Netgear RP614v3 router                      | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             |               |                | Printer or network appliance      |
+| Netgear FR114P firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FR114P`      |                | Netgear network appliance         |
+| Netgear FVS114 firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FVS114`      |                | Netgear network appliance         |
+| QLogic SANbox 5202 Fibre-Channel switch     | `1:1c:3`                                           |                             |               |                | QLogic network appliance (Linux)  |
+| TP-Link TL-WR541G/542G wireless router      | `1:3:2b:2c:2e:2f:6:21:79:f9`                       | `MSFT 98`                   |               |                | TP-Link network appliance         |
+| TP-Link unknown network appliance           | `1:3:2b:2c:2e:2f:6`                                | `MSFT 98`                   |               |                | TP-Link network appliance         |
+| TrendNet TW100-S4W1CA router                | `1:3:6:c:f:1c` (Airvana)                           | `TW100-S4W1CA`              |               |                | TrendNet network appliance        |
+| TrendNet TEW-654TR wireless router          | *(Unknown)*                                        | `TEW-654TR`                 |               |                | TrendNet network appliance        |
+| TrendNet unknown network appliance          | *(Unknown)*                                        | `trendnet`                  |               |                | TrendNet network appliance        |
+| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               |                | TrendNet network appliance        |
+| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               |                | TrendNet network appliance        |
+| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               |                | Linux appliance                   |
+| WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      |                | WIZnet embedded network appliance |
+| Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    |                | Yealink IP phone                  |
 
 ---
 ## Printers
@@ -643,39 +650,40 @@ See 'Game Consoles' for Xbox family
 | Hewlett-Packard unknown printer       | `c:1:1c:3:f:6:2c`                                    |                             | `NPI`_*_     | HP printer       |
 
 ### Other Printers
-| **Device/OS**                        | **PRL**                                           | **Vendor ID**                                           | **Hostname**  | **Client Class**                              |
-| :------------                        | :------                                           | :------------                                           | :-----------  | :---------------                              |
-| Boca unknown printer                 | `1:3:2c:33:36:3a:3b:c`                            | `BOCA SYSTEMS PRINTER`                                  |               | Boca ticket printer                           |
-| Brother MFC-J6510DW multifunction    | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `MFC-J6510DW` | Brother printer                               |
-| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `BR`_*_       | Brother printer                               |
-| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c:2:2a`                       |                                                         | `BR`_*_       | Brother printer                               |
-| Brother unknown printer              | `6:3:1:f:42:43:d:2c:2:2a:78:7d:c`                 |                                                         | `BR`_*_       | Brother printer                               |
-| Canon MF4890 multifunction           | `1:3:6:f:c` (Roku)                                |                                                         |               | Printer or Linux media appliance (best guess) |
-| Canon unknown printer                | `1:3:6:f:2c:2f`                                   |                                                         | `Canon`_*_    | Canon printer                                 |
-| Canon unknown printer                | `1:3:6:f:45`                                      |                                                         |               | Canon printer                                 |
-| Canon unknown printer                | `1:3:c:17:6:f:2c:2f`                              |                                                         |               | Canon printer                                 |
-| Epson Artisan 725 all-in-one printer | `1:3:6:c:f:11:1c:28:29:2a`                        | `udhcp`                                                 |               | Epson printer                                 |
-| Epson unknown printer                | `1:3:6:c:f:1c:2a:28:26:17:25:27:13:1a`            |                                                         |               | Epson printer                                 |
-| Epson unknown printer                | `1:3:6:c:f:1c:33:36:3a:3b`                        |                                                         |               | Epson printer                                 |
-| Epson unknown printer                | `6:3:1:f:42:43:d:2c`                              |                                                         |               | Epson Printer                                 |
-| Konica Minolta unknown printer       | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)          |                                                         | `KMBT`_*_     | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:6:f:2c`                                      |                                                         |               | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:6:f:2c:2e`                                   |                                                         |               | Konica Minolta printer                        |
-| Konica Minolta unknown printer       | `1:3:f:2c:2e`                                     |                                                         | `KM`_*_       | Konica Minolta printer                        |
-| Kyocera unknown printer              | `1:3:f:6:2c`                                      |                                                         | `KM`_*_       | Kyocera printer                               |
-| Lexmark X204n multifunction          | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    | `Mfg=LEXMARK;Typ=MFP;Mod=Lexmark X204n;Ser=`*serial*`;` |               | Lexmark printer                               |
-| Dell unknown printer                 | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Lexmark) |                                                         | `LXK`_*_      | Lexmark printer                               |
-| Lexmark unknown printer              | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    |                                                         |               | Dell or Lexmark printer                       |
-| Muratec unknown printer              | `1:3:c:17:6:f:2a:2c:2f` (Oki)                     |                                                         |               | Muratec printer                               |
-| Océ unknown printer                  | `1:3:6:2c:c:f:4:45:46:2a`                         |                                                         | `MFP-`_*_     | Océ printer                                   |
-| Oki C330 color laser printer         | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `C330`                                                  |               | Oki printer                                   |
-| Oki MC561 multifunction              | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `MC561`                                                 |               | Oki printer                                   |
-| Panasonic UF-9000 multifunction      | `1:2:3:6:c:f:12:13:2e:2f:36:39:3a:3b`             |                                                         |               | Panasonic printer                             |
-| Ricoh Aficio MP 3351 multifunction   | `1:3:6:c:f:1c:2c:2f`                              |                                                         |               | Ricoh printer                                 |
-| Ricoh unknown printer                | `1:3:6:c:f:1c:2c:2f:cc`                           |                                                         | `RNP`_*_      | Ricoh printer                                 |
-| Ricoh unknown printer                | `1:3:6:f:1c:2c:2f`                                |                                                         | `RNP`_*_      | Ricoh printer                                 |
-| Samsung unknown printer              | `1:3:6:7:c:f:12:17:1a:2c:2e:33:36:3a:3b:4e:4f`    | `SAMSUNG Network Printer`                               |               | Samsung printer                               |
-| Star Micronics unknown printer       | `1:3:6:c:f:1c:28:29:2a`                           |                                                         | `IFBD-H`_*_   | Star Micronics printer                        |
+| **Device/OS**                        | **PRL**                                           | **Vendor ID**                                           | **Hostname**  | **Vendor OUI** | **Client Class**                              |
+| :------------                        | :------                                           | :------------                                           | :-----------  | :------------- | :---------------                              |
+| Boca unknown printer                 | `1:3:2c:33:36:3a:3b:c`                            | `BOCA SYSTEMS PRINTER`                                  |               |                | Boca ticket printer                           |
+| Brother MFC-J6510DW multifunction    | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `MFC-J6510DW` |                | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c`                            |                                                         | `BR`_*_       |                | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:c:2c:2:2a`                       |                                                         | `BR`_*_       |                | Brother printer                               |
+| Brother unknown printer              | `6:3:1:f:42:43:d:2c:2:2a:78:7d:c`                 |                                                         | `BR`_*_       |                | Brother printer                               |
+| Canon MF4890 multifunction           | `1:3:6:f:c` (Roku)                                |                                                         |               |                | Printer or Linux media appliance (best guess) |
+| Canon unknown printer                | `1:3:6:f:2c:2f`                                   |                                                         | `Canon`_*_    |                | Canon printer                                 |
+| Canon unknown printer                | `1:3:6:f:45`                                      |                                                         |               |                | Canon printer                                 |
+| Canon unknown printer                | `1:3:c:17:6:f:2c:2f`                              |                                                         |               |                | Canon printer                                 |
+| Epson Artisan 725 all-in-one printer | `1:3:6:c:f:11:1c:28:29:2a`                        | `udhcp`                                                 |               |                | Epson printer                                 |
+| Epson unknown printer                | `1:3:6:c:f:1c:2a:28:26:17:25:27:13:1a`            |                                                         |               |                | Epson printer                                 |
+| Epson unknown printer                | `1:3:6:c:f:1c:33:36:3a:3b`                        |                                                         |               |                | Epson printer                                 |
+| Epson unknown printer                | `6:3:1:f:42:43:d:2c`                              |                                                         |               |                | Epson Printer                                 |
+| Konica Minolta unknown printer       | `1:3:6:f` (Xbox 360, DRAC, Netgear, etc)          |                                                         | `KMBT`_*_     |                | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:6:f:2c`                                      |                                                         |               |                | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:6:f:2c:2e`                                   |                                                         |               |                | Konica Minolta printer                        |
+| Konica Minolta unknown printer       | `1:3:f:2c:2e`                                     |                                                         | `KM`_*_       |                | Konica Minolta printer                        |
+| Kyocera unknown printer              | `1:3:f:6:2c`                                      |                                                         | `KM`_*_       |                | Kyocera printer                               |
+| Lexmark X204n multifunction          | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    | `Mfg=LEXMARK;Typ=MFP;Mod=Lexmark X204n;Ser=`*serial*`;` |               |                | Lexmark printer                               |
+| Lexmark unknown printer              | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    |                                                         | `LXK`_*_      |                | Lexmark printer                               |
+| Lexmark unknown printer              | `1:3:2a:4:6:7:c:f:1a:2c:33:36:3a:3b:be` (Dell)    |                                                         |               |                | Dell or Lexmark printer                       |
+| Muratec unknown printer              | `1:3:c:17:6:f:2a:2c:2f` (Oki)                     |                                                         |               |                | Muratec printer                               |
+| Océ unknown printer                  | `1:3:6:2c:c:f:4:45:46:2a`                         |                                                         | `MFP-`_*_     |                | Océ printer                                   |
+| Oki C330 color laser printer         | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `C330`                                                  |               |                | Oki printer                                   |
+| Oki MC561 multifunction              | `1:3:c:17:6:f:2a:2c:2f` (Muratec)                 | `MC561`                                                 |               |                | Oki printer                                   |
+| Panasonic UF-9000 multifunction      | `1:2:3:6:c:f:12:13:2e:2f:36:39:3a:3b`             |                                                         |               |                | Panasonic printer                             |
+| Ricoh Aficio MP 3351 multifunction   | `1:3:6:c:f:1c:2c:2f`                              |                                                         |               |                | Ricoh printer                                 |
+| Ricoh unknown printer                | `1:3:6:c:f:1c:2c:2f:cc`                           |                                                         | `RNP`_*_      |                | Ricoh printer                                 |
+| Ricoh unknown printer                | `1:3:6:f:1c:2c:2f`                                |                                                         | `RNP`_*_      |                | Ricoh printer                                 |
+| Samsung unknown printer              | `1:3:6:7:c:f:12:17:1a:2c:2e:33:36:3a:3b:4e:4f`    | `SAMSUNG Network Printer`                               |               |                | Samsung printer                               |
+| Star Micronics unknown printer       | `1:3:6:c:f:1c:28:29:2a`                           |                                                         | `IFBD-H`_*_   |                | Star Micronics printer                        |
+| Star Micronics unknown printer       | `1:3:6:c:f:1c:2a:28:26:17:25:26:27:13:1a`         |                                                         |               | `0:11:62`      | Star Micronics printer                        |
 
 ---
 ## Long PRL
