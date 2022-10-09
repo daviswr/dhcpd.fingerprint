@@ -429,6 +429,7 @@ See 'Game Consoles' for Xbox family
 | MINIX 3.2                           | `1:3:6:c`                               | `Minix`        | Minix                                   |
 | MorphOS 2.7                         | `1:f:3:6:3a:3b`                         |                | MorphOS (AmigaOS-like)                  |
 | ReactOS 0.3                         | `1:1c:2:3:f:6:c:2a` (Debian installer)  |                | ReactOS                                 |
+| ReactOS 0.4.14                      | `1:1c:2:3:f:6:c:2a` (Debian installer)  |                | ReactOS                                 |
 | VMware ESXi 5.0.0                   | `1:1c:2:3:f:6:c` (ISC dhclient default) |                | ISC dhclient (Linux/Unix)               |
 
 ---
