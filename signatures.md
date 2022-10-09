@@ -514,6 +514,9 @@ See 'Game Consoles' for Xbox family
 | Cisco IOS 12.2(55)SE10 - WS-C3560-48TS     | `1:42:6:f:2c:3:43:c:96:2b:7d`            |                                            | Cisco IOS network appliance                         |
 | Cisco IOS 12.2(58)SE1 - WS-C2960-8TC-L     | `1:6:f:2c:3:21:96:2b`                    |                                            | Cisco IOS network appliance                         |
 | Cisco IOS 15.0(1)SE - WS-C2960-8TC-L       | `1:6:f:2c:3:21:96:2b`                    |                                            | Cisco IOS network appliance                         |
+| Cisco IOS 15.2(2)E10 - WS-C2960CG-8TC-L    | `1:6:f:2c:3:21:96:2b`                    | `ciscopnp`                                 | Cisco IOS network appliance                         |
+| Cisco IOS 15.2(2)E10 - WS-C3560CG-8PC-S    | `1:6:f:2c:3:21:96:2b`                    | `ciscopnp`                                 | Cisco IOS network appliance                         |
+| Cisco IOS 15.2(6)E3 - WS-C2960CX-8TC-L     | `1:6:f:2c:3:21:96:2b`                    | `ciscopnp`                                 | Cisco IOS network appliance                         |
 | Cisco Small Business SF302-08P switch      | `1:3:42:43:36:7d:81:96:6:f:64`           | `SF 302-08P`                               | Cisco Small Business network appliance              |
 | **Routers**                                ||||
 | Cisco IOS 12.4(15)T1 - C851                | `1:6:f:2c:3:21:96:2b`                    |                                            | Cisco IOS network appliance                         |
@@ -551,10 +554,11 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                             | **PRL**                  | **Vendor ID**                              | **Client Class**                   |
 | :------------                             | :------                  | :------------                              | :---------------                   |
 | Juniper ScreenOS 5.3 - NS-25              | `33:36:1:3:6:f`          | `NetScreen-25`                             | Juniper ScreenOS network appliance |
-| Juniper ScreenOS 6.2 - NS-5GT             | `33:36:1:3:6:f`          | `NetScreen-NS5GT` (This can be customized) | Juniper ScreenOS network appliance |
-| Juniper ScreenOS 6.3 - SSG-20             | `33:36:1:3:6:f`          |                                            | Juniper ScreenOS network appliance |
-| Juniper Junos 12.1 - SRX-210              | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
-| Juniper Junos 12.3 - SRX-210HE2           | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
+| Juniper ScreenOS 6.2.0r19.0 - NS-5GT      | `33:36:1:3:6:f`          | `NetScreen-NS5GT` (This can be customized) | Juniper ScreenOS network appliance |
+| Juniper ScreenOS 6.3.0r26.0 - SSG5-Serial | `33:36:1:3:6:f`          | `SSG5-Serial`  (This can be customized)    | Juniper ScreenOS network appliance |
+| Juniper ScreenOS 6.3.0r26.0 - SSG5-Serial | `33:36:1:3:6:f:2c`       | `SSG5-Serial`  (This can be customized)    | Juniper ScreenOS network appliance |
+| Junper Junos 12.3X48-D65.1 - SRX-210HE2   | (None)                   |                                            | *(Unclassifiable)*                 |
+| Juniper SRX-300                           | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
 
 ### Other Network
 | **Device/OS**                               | **PRL**                                            | **Vendor ID**               | **Hostname**  | **Vendor OUI** | **Client Class**                  |
