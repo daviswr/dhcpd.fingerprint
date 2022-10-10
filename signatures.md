@@ -384,6 +384,7 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                                      | **PRL**                                         | **Vendor ID**              |  **Hostname** | **Client Class**                                  |
 | :------------                                      | :------                                         | :------------              | :------------ | :---------------                                  |
 | **Microsoft Windows 3.1/9X**                       |||||
+| Microsoft MS-DOS 6.22 (MS TCP/IP 1.0a)             | `1:3:6:f:33:2c`                                 |                            |               | Microsoft MS-DOS                                  |
 | Microsoft Windows 3.11 (MS TCP/IP 3.11b)           | `1:3:f:6:2c:2e:2f`                              |                            |               | Microsoft Windows 3.1 / 95                        |
 | Microsoft Windows 95 OSR2                          | `1:3:f:6:2c:2e:2f`                              |                            |               | Microsoft Windows 3.1 / 95                        |
 | Microsoft Windows 98                               | `1:3:6:f:2c:2e:2f:39`                           |                            |               | Microsoft Windows 98                              |
