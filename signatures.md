@@ -496,8 +496,9 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                              | **PRL**                                  | **Vendor ID**                              | **Client Class**                                    |
 | :------------                              | :------                                  | :------------                              | :---------------                                    |
 | **Wireless**                               ||||
-| Cisco Virtual Wireless LAN Controller      | `1:3:6:c:f:42:43:96`                     | `Cisco AIR-CTVM-K9`                        | Cisco Wireless LAN Controller                       |
-| Cisco Wireless LAN Controller 5508         | `1:3:6:c:f:42:43:96`                     | `Cisco AIR-CT5508-K9`                      | Cisco Wireless LAN Controller                       |
+| Cisco AireOS 8.0.140.0 - vWLC              | `1:3:6:c:f:42:43:96`                     | `Cisco AIR-CTVM-K9`                        | Cisco Wireless LAN Controller                       |
+| Cisco AireOS 8.3.141.0 - WLC 2504          | `1:3:6:c:f:42:43:96`                     | `Cisco AIR-CT2504-K9`                      | Cisco Wireless LAN Controller                       |
+| Cisco AireOS - WLC 5508                    | `1:3:6:c:f:42:43:96`                     | `Cisco AIR-CT5508-K9`                      | Cisco Wireless LAN Controller                       |
 | Cisco AP1200 series (autonomous)           | `1:6:f:2c:3:21:96:2b`                    | `Cisco AP c1200`                           | Cisco wireless network appliance                    |
 | Cisco AP1200 series (CAPWAP)               | `1:6:f:2c:3:7:21:96:2b`                  | `Cisco AP c1200`                           | Cisco wireless network appliance                    |
 | Cisco AP1142N (CAPWAP)                     | `1:6:f:2c:3:7:21:96:2b`                  | `Cisco AP c1140`                           | Cisco wireless network appliance                    |
@@ -541,14 +542,16 @@ See 'Game Consoles' for Xbox family
 | Meraki Z3 teleworker gateway               | `1:f:3:1c:c:6:1a`                        | `MERAKI`                                   | Cisco Meraki network appliance                      |
 
 ### Aruba Networks / HPE
-| **Device/OS**              | **PRL**                            | **Vendor ID**    | **Client Class**                 |
-| :------------              | :------                            | :------------    | :---------------                 |
-| Aruba IAP205               | `1:3:4:6:c:f:1c:2a:2b:42:43:3c`    | `ArubaInstantAP` | Aruba wireless network appliance |
-| Aruba IAP224 (8.6.0)       | `1:3:4:6:c:f:1c:2a:2b:3c:42:43:94` | `ArubaInstantAP` | Aruba wireless network appliance |
-| Aruba AP225                | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba AP325 (6.4.4.6)      | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba AP325 (APBoot ROM)   | `1:3:6:f:2b:3c`                    | `ArubaAP`        | Aruba wireless network appliance |
-| Aruba S1500-12P / ARSW1512 | *(Unknown)*                        | `ArubaMC`        | Aruba network appliance          |
+| **Device/OS**                     | **PRL**                            | **Vendor ID**    | **Client Class**                 |
+| :------------                     | :------                            | :------------    | :---------------                 |
+| Aruba RAP155                      | `1:3:4:6:c:f:1c:2a:2b:3c:42:43:94` | `ArubaInstantAP` | Aruba wireless network appliance |
+| Aruba IAP205                      | `1:3:4:6:c:f:1c:2a:2b:42:43:3c`    | `ArubaInstantAP` | Aruba wireless network appliance |
+| Aruba IAP224 (8.6.0)              | `1:3:4:6:c:f:1c:2a:2b:3c:42:43:94` | `ArubaInstantAP` | Aruba wireless network appliance |
+| Aruba AP225                       | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba AP325 (6.4.4.6)             | `1:3:4:6:c:f:1c:2a:2b:3c`          | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba AP325 (APBoot ROM)          | `1:3:6:f:2b:3c`                    | `ArubaAP`        | Aruba wireless network appliance |
+| Aruba 3600 controller (6.4.4.17)  | `1:3:6:c:f:4:2b:2c:3c:2a:1c`       | `ArubaMC`        | Aruba network appliance          |
+| Aruba S1500-12P / ARSW1512 switch | *(Unknown)*                        | `ArubaMC`        | Aruba network appliance          |
 
 ### Juniper Networks
 | **Device/OS**                             | **PRL**                  | **Vendor ID**                              | **Client Class**                   |
@@ -561,39 +564,40 @@ See 'Game Consoles' for Xbox family
 | Juniper SRX-300                           | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
 
 ### Other Network
-| **Device/OS**                               | **PRL**                                            | **Vendor ID**               | **Hostname**  | **Vendor OUI** | **Client Class**                  |
-| :------------                               | :------                                            | :------------               | :-----------  | :------------- | :---------------                  |
-| 3com CDSG10PWR (HP 1905-10G-POE) switch     | `1:3:42:43:36:3d:81:6:f`                           |                             |               |                | HP (3com) network appliance       |
-| ActionTec Wireless Broadband Router         | `1:1c:2:3:f:6:4:7:17:1a:2b:32:33:36:37:3c:3d:48`   | `Wireless Broadband Router` |               |                | Actiontec network appliance       |
-| Airvana HubBub (Sprint Airave) femtocell    | `1:3:6:c:f:1c` (TrendNet)                          | `udhcp 0.9.7`               |               | `0:5:b9`       | Airvana network appliance         |
-| Belkin unknown network appliance            | `1:3:6:f`                                          |                             | `SC`_*_       |                | Belkin network appliance          |
-| Belkin unknown network appliance            | `3:1:6:f:79`                                       |                             |               |                | Apple or Belkin network appliance |
-| Cradlepoint wireless router                 | `1:3:6:c:f:1c:2a` (Ubiquiti, D-Link, Samsung)      | `Cradlepoint DHCP Client`   |               |                | Cradlepoint network appliance     |
-| Cradlepoint wireless router                 | `1:3:6:2c:f:2e:2f` (D-Link)                        |                             |               |                | Cradlepoint network appliance     |
-| D-Link unknown network appliance            | `1:f:3:6:2c:2e:2f:2b:4d` (Win98SE)                 | `MSFT 98`                   | `My Host`     |                | D-Link network appliance          |
-| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b` (Win2k)                | `MSFT 5.0`                  | `DI-514`      |                | D-Link network appliance          |
-| D-Link DCS-900 network camera               | `1:3:6`                                            | `MSFT 98`                   |               |                | D-Link network camera             |
-| D-Link unknown network camera               | `1:3:6:c:f:1c:2a` (Samsung, Ubiquiti, Cradlepoint) |                             | `DCS-`*model* |                | D-Link network camera             |
-| D-Link unknown network camera               | `1:3:6`                                            |                             | `DCS-`*model* |                | D-Link network camera             |
-| Delta Networks unknown appliance            | `1:3:6:f:2c:2e:2f:39` (Win98)                      |                             | `RAS`         |                | Delta Networks network appliance  |
-| Linksys unknown network appliance           | `1:3:f:6:d4`                                       |                             |               |                | Linksys network appliance         |
-| Linksys unknown network appliance           | `1:1c:3:6:f:2c`                                    |                             |               |                | Linksys network appliance         |
-| Linksys SPA-2102 voice gateway/router       | `1:3:2a:6:7:f:3a:3b:2c:42`                         | `LINKSYS SPA-2102`          |               |                | Linksys network appliance         |
-| NEC DT700 IP phone                          | `1:3:c:6:f:42:45:46:5f:78:8d:97:a2:2b`             | `NECDT700`                  |               |                | NEC IP phone                      |
-| Netgear RP614v3 router                      | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             |               |                | Printer or network appliance      |
-| Netgear FR114P firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FR114P`      |                | Netgear network appliance         |
-| Netgear FVS114 firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FVS114`      |                | Netgear network appliance         |
-| QLogic SANbox 5202 Fibre-Channel switch     | `1:1c:3`                                           |                             |               |                | QLogic network appliance (Linux)  |
-| TP-Link TL-WR541G/542G wireless router      | `1:3:2b:2c:2e:2f:6:21:79:f9`                       | `MSFT 98`                   |               |                | TP-Link network appliance         |
-| TP-Link unknown network appliance           | `1:3:2b:2c:2e:2f:6`                                | `MSFT 98`                   |               |                | TP-Link network appliance         |
-| TrendNet TW100-S4W1CA router                | `1:3:6:c:f:1c` (Airvana)                           | `TW100-S4W1CA`              |               |                | TrendNet network appliance        |
-| TrendNet TEW-654TR wireless router          | *(Unknown)*                                        | `TEW-654TR`                 |               |                | TrendNet network appliance        |
-| TrendNet unknown network appliance          | *(Unknown)*                                        | `trendnet`                  |               |                | TrendNet network appliance        |
-| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               |                | TrendNet network appliance        |
-| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               |                | TrendNet network appliance        |
-| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               |                | Linux appliance                   |
-| WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      |                | WIZnet embedded network appliance |
-| Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    |                | Yealink IP phone                  |
+| **Device/OS**                               | **PRL**                                            | **Vendor ID**               | **Hostname**  | **Vendor OUI** | **Client Class**                     |
+| :------------                               | :------                                            | :------------               | :-----------  | :------------- | :---------------                     |
+| 3com CDSG10PWR (HP 1905-10G-POE) switch     | `1:3:42:43:36:3d:81:6:f`                           |                             |               |                | HP (3com) network appliance          |
+| ActionTec Wireless Broadband Router         | `1:1c:2:3:f:6:4:7:17:1a:2b:32:33:36:37:3c:3d:48`   | `Wireless Broadband Router` |               |                | Actiontec network appliance          |
+| Airvana HubBub (Sprint Airave) femtocell    | `1:3:6:c:f:1c` (TrendNet, WatchGuard)              | `udhcp 0.9.7`               |               | `0:5:b9`       | Airvana network appliance            |
+| Belkin unknown network appliance            | `1:3:6:f`                                          |                             | `SC`_*_       |                | Belkin network appliance             |
+| Belkin unknown network appliance            | `3:1:6:f:79`                                       |                             |               |                | Apple or Belkin network appliance    |
+| Cradlepoint wireless router                 | `1:3:6:c:f:1c:2a` (Ubiquiti, D-Link, Samsung)      | `Cradlepoint DHCP Client`   |               |                | Cradlepoint network appliance        |
+| Cradlepoint wireless router                 | `1:3:6:2c:f:2e:2f` (D-Link)                        |                             |               |                | Cradlepoint network appliance        |
+| D-Link unknown network appliance            | `1:f:3:6:2c:2e:2f:2b:4d` (Win98SE)                 | `MSFT 98`                   | `My Host`     |                | D-Link network appliance             |
+| D-Link DI-514 wireless router               | `1:f:3:6:2c:2e:2f:1f:21:2b` (Win2k)                | `MSFT 5.0`                  | `DI-514`      |                | D-Link network appliance             |
+| D-Link DCS-900 network camera               | `1:3:6`                                            | `MSFT 98`                   |               |                | D-Link network camera                |
+| D-Link unknown network camera               | `1:3:6:c:f:1c:2a` (Samsung, Ubiquiti, Cradlepoint) |                             | `DCS-`*model* |                | D-Link network camera                |
+| D-Link unknown network camera               | `1:3:6`                                            |                             | `DCS-`*model* |                | D-Link network camera                |
+| Delta Networks unknown appliance            | `1:3:6:f:2c:2e:2f:39` (Win98)                      |                             | `RAS`         |                | Delta Networks network appliance     |
+| Linksys unknown network appliance           | `1:3:f:6:d4`                                       |                             |               |                | Linksys network appliance            |
+| Linksys unknown network appliance           | `1:1c:3:6:f:2c`                                    |                             |               |                | Linksys network appliance            |
+| Linksys SPA-2102 voice gateway/router       | `1:3:2a:6:7:f:3a:3b:2c:42`                         | `LINKSYS SPA-2102`          |               |                | Linksys network appliance            |
+| NEC DT700 IP phone                          | `1:3:c:6:f:42:45:46:5f:78:8d:97:a2:2b`             | `NECDT700`                  |               |                | NEC IP phone                         |
+| Netgear RP614v3 router                      | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             |               |                | Printer or network appliance         |
+| Netgear FR114P firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FR114P`      |                | Netgear network appliance            |
+| Netgear FVS114 firewall                     | `1:3:6:f` (BB, Xbox 360, DRAC, etc)                |                             | `FVS114`      |                | Netgear network appliance            |
+| QLogic SANbox 5202 Fibre-Channel switch     | `1:1c:3`                                           |                             |               |                | QLogic network appliance (Linux)     |
+| TP-Link TL-WR541G/542G wireless router      | `1:3:2b:2c:2e:2f:6:21:79:f9`                       | `MSFT 98`                   |               |                | TP-Link network appliance            |
+| TP-Link unknown network appliance           | `1:3:2b:2c:2e:2f:6`                                | `MSFT 98`                   |               |                | TP-Link network appliance            |
+| TrendNet TW100-S4W1CA router                | `1:3:6:c:f:1c` (Airvana, WatchGuard)               | `TW100-S4W1CA`              |               |                | TrendNet network appliance           |
+| TrendNet TEW-654TR wireless router          | *(Unknown)*                                        | `TEW-654TR`                 |               |                | TrendNet network appliance           |
+| TrendNet unknown network appliance          | *(Unknown)*                                        | `trendnet`                  |               |                | TrendNet network appliance           |
+| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               |                | TrendNet network appliance           |
+| TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               |                | TrendNet network appliance           |
+| Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               |                | Linux appliance                      |
+| WatchGuard FireBox X55e Edge firewall       | `1:3:6:c:f:1c` (Airvana, TrendNet)                 | `udhcp 0.9.9-pre`           |               | `0:90:7f`      | WatchGuard network appliance (Linux) |
+| WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      |                | WIZnet embedded network appliance    |
+| Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    |                | Yealink IP phone                     |
 
 ---
 ## Printers
