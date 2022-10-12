@@ -15,6 +15,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | :-------------                       | :------                                       | :------------                                     | :---------------                       |
 | Apple NetBoot PowerPC                | `1:3:2b:3c`                                   | `AAPLBSDPC/ppc/`*model*                           | Apple NetBoot (PPC)                    |
 | Apple NetBoot Intel                  | `1:3:43:2b:3c`                                | `AAPLBSDPC/i386/`*model*                          | Apple NetBoot (Intel)                  |
+| Apple Mac OS 9.0.4 installer         | `1:3:6:f`                                     | `Mac OS 9.0.4 Open Transport `*version*           | Apple Mac OS 9                         |
 | Apple Mac OS 9.1.0                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.1 Open Transport `*version*` `*model*   | Apple Mac OS 9                         |
 | Apple Mac OS 9.2.1                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.1 Open Transport `*version*` `*model* | Apple Mac OS 9                         |
 | Apple Mac OS 9.2.2                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.2 Open Transport `*version*` `*model* | Apple Mac OS 9                         |
@@ -361,6 +362,9 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 12 - Google Pixel 6 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | `Pixel-6-Pro`         | Google Android 12                                      |
 | Android 12 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | _*_`-S21`             | Google Android 12                                      |
 | Android 12                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   |                       | Google Android 12                                      |
+| **Google Android 13**                                |||||
+| Android 13 - Google Pixel 6 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   | `Pixel-6-Pro`         | Google Android 13                                      |
+| Android 13                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   |                       | Google Android 13                                      |
 
 ## Unix
 | **Device/OS**                     | **PRL**                                   | **Vendor ID**  | **Client Class**              |
