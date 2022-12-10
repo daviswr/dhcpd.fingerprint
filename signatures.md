@@ -351,6 +351,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | **Google Android 9**                                 |||||
 | Android 9                                            | *(Unknown)*                             | `android-dhcp-9`                                                                    |                       | Google Android 9                                       |
 | **Google Android 10**                                |||||
+| Android 10 - Meta (Oculus) Quest 2                   | `1:3:6:f:1a:1c:33:3a:3b:2b`             | `android-dhcp-10`                                                                   |                       | Google Android 10                                      |
 | Android 10                                           | *(Unknown)*                             | `android-dhcp-10`                                                                   |                       | Google Android 10                                      |
 | **Google Android 11**                                |||||
 | Android 11 - Google Pixel 4a                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   | `Pixel-4a`            | Google Android 11                                      |
