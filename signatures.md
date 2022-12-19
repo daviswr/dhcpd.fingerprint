@@ -412,24 +412,24 @@ See 'Game Consoles' for Xbox family
 | Microsoft Windows RT 8 - MS Surface RT             | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
 | Microsoft Windows 8.1                              | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
 | Microsoft Windows RT 8.1 - MS Surface RT           | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
-| Microsoft Windows 10 v.1507                        | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
-| Microsoft Windows 10 "November" v.1511             | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
+| Microsoft Windows 10 v1507                         | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
+| Microsoft Windows 10 "November" v1511              | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
 | Microsoft Windows Phone 10 (1511)                  | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 | _*_`-Phone`   |  Microsoft Windows Phone 10                       |
-| Microsoft Windows 10 "Anniversary" v.1607          | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
-| Microsoft Windows 10 "Creators" v.1703             | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
-| Microsoft Windows 10 "Fall Creators" 1709          | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
-| Microsoft Windows 10 v.1803                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.1809                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.1903                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.1909                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.2004                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.20H2                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.21H1                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.21H2                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 10 v.22H2                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 "Anniversary" v1607           | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
+| Microsoft Windows 10 "Creators" v1703              | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
+| Microsoft Windows 10 "Fall Creators" v1709         | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
+| Microsoft Windows 10 v1803                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v1809                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v1903                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v1909                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v2004                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v20H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v21H1                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v21H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 10 v22H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
 | Microsoft Windows 10 unknown version               | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc:0:44:d0` | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2019                |
-| Microsoft Windows 11 v.21H2                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
-| Microsoft Windows 11 v.22H2                        | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 11 v21H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 11 v22H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
 | **Microsoft Windows CE**                           |||||
 | Microsoft Windows Mobile 6 - HTC Mogul             | `1:3:6:f:2c:2e:2f`                              | `Microsoft Windows CE\000` |               | Microsoft Windows Mobile                          |
 | Microsoft Windows Mobile 6 - Palm Treo             | `1:3:6:f:2c:2e:2f`                              | `Microsoft Windows CE\000` |               | Microsoft Windows Mobile                          |
