@@ -399,7 +399,7 @@ See 'Game Consoles' for Xbox family
 | Microsoft Windows NT 3.5                           | `3:2c:2e:2f:6`                                  |                            |               | Microsoft Windows NT 3.5                          |
 | Microsoft Windows NT 3.51                          | `1:f:3:2c:2e:2f:6`                              |                            |               | Microsoft Windows NT 3.51 / 4.0                   |
 | Microsoft Windows NT 4                             | `1:f:3:2c:2e:2f:6`                              |                            |               | Microsoft Windows NT 3.51 / 4.0                   |
-| Microsoft Windows 2000                             | `1:f:3:6:2c:2e:2f:1f:21:2b`                     | `MSFT 5.0`                 |               | Microsoft Windows 2000                            |
+| Microsoft Windows 2000 SP4                         | `1:f:3:6:2c:2e:2f:1f:21:2b`                     | `MSFT 5.0`                 |               | Microsoft Windows 2000                            |
 | Microsoft Windows XP SP3                           | `1:f:3:6:2c:2e:2f:1f:21:f9:2b`                  | `MSFT 5.0`                 |               | Microsoft Windows XP / Server 2003                |
 | Microsoft Windows Server 2003 SP2                  | `1:f:3:6:2c:2e:2f:1f:21:f9:2b`                  | `MSFT 5.0`                 |               | Microsoft Windows XP / Server 2003                |
 | Microsoft Windows Vista                            | `1:f:3:6:2c:2e:2f:1f:21:79:f9:2b`               | `MSFT 5.0`                 |               | Microsoft Windows Vista / Windows 7 / Server 2008 |
