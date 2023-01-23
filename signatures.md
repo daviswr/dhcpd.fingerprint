@@ -63,6 +63,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple iOS 15.6 - iPhone 7        | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
 | Apple iOS 15.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
 | Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
+| Apple iOS 16.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
 
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
