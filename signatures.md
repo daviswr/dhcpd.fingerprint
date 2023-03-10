@@ -458,7 +458,7 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                     | **PRL**                                     | **Vendor ID**    | **Hostname**     | **Client Class**      |
 | :------------                     | :------                                     | :------------    | :-----------     | :---------------      |
 | Nintendo GameCube - Mario Kart DD | `1:3:6:1a:1c:3a:3b`                         |                  |                  | Nintendo GameCube     |
-| Nintendo GameCube - Swiss         | `1:3:1c:6`                                  |                  |                  | Nintendo GameCube     |
+| Nintendo GameCube - Swiss         | `1:3:1c:6` (FujiNet)                        |                  |                  | Nintendo GameCube     |
 | Nintendo Wii                      | `1:3:6:f:1c:21` (eComStation, 3DS)          |                  | `Wii`            | Nintendo Wii          |
 | Nintendo 3DS                      | `1:3:6:f:1c:21` (eComStation, Wii)          |                  | `Nintendo 3DS`   | Nintendo 3DS          |
 | Nintendo Wii U                    | `1:3:6:f` (BB, DRAC, Netgear, etc)          |                  | `Nintendo Wii U` | Nintendo Wii U        |
@@ -490,6 +490,7 @@ See 'Game Consoles' for Xbox family
 | FitBit Aria smart scale                      | `1:3:6:f:42:43:d:2c`                       |                                            | `GainSpan`*mac-addr* |                | GainSpan IoT appliance                    |
 | FitBit Ionic fitness tracker                 | `1:3:6`                                    |                                            | `Ionic`              |                | FitBit Ionic                              |
 | FitBit Sense fitness tracker                 | `1:3:6`                                    |                                            | `Sense`              |                | FitBit Sense                              |
+| FujiNet for Apple II                         | `1:3:1c:6` (GameCube Swiss)                |                                            | `fujinet`            |                | FujiNet                                   |
 | Geist environmental monitor                  | `1:3:6:c:f:1c:2a:28:26:17:25:26:27:13:1a`  |                                            |                      | `0:40:9d`      | Geist environmental monitor               |
 | MaceView MVR-SQ80 DVR                        | `1:3:6:1c:f:c`                             |                                            | `DVR`                |                | Mace Security DVR                         |
 | Moxa NPort 5232 serial device server         | `1:3:4:6:2b`                               | `MOS 2.0`                                  |                      |                | *(Not yet classified)*                    |
