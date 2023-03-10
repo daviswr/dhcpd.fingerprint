@@ -37,6 +37,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "Mojave" 10.14.6         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
 | Apple macOS "Catalina" 10.15.7       | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
 | Apple macOS "Big Sur" 11.5.2         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
+| Apple macOS "Big Sur" 11.7.4         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
 | Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 | Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
 | Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
@@ -124,7 +125,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | openSUSE 11.4 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2f`    | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
 | openSUSE 11.4, 12.1 (dhclient)                  | `1:1c:3:79:1a:c:f:77:6:28:29:57:55:56:2c:2d:2e:2f:2a`           |                                                                   |               | openSUSE Linux                                  |
 | openSUSE 12.1 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2e:2f` | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
-| SystemRescue unknown version (reported)         | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue                                    |
+| SystemRescue unknown version (*reported*)       | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue                                    |
 | SystemRescue 9.04 (Arch-based)                  | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue                                    |
 
 ### Linux Appliances
