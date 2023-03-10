@@ -365,7 +365,9 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 12 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | _*_`-S21`             | Google Android 12                                      |
 | Android 12                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   |                       | Google Android 12                                      |
 | **Google Android 13**                                |||||
+| Android 13 - Google Pixel 5a                         | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   | `Pixel-5a`            | Google Android 13                                      |
 | Android 13 - Google Pixel 6 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   | `Pixel-6-Pro`         | Google Android 13                                      |
+| Android 13 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   | _*_`-S21`             | Google Android 13                                      |
 | Android 13                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-13`                                                                   |                       | Google Android 13                                      |
 
 ## Unix
