@@ -420,7 +420,7 @@ See 'Game Consoles' for Xbox family
 | Microsoft Windows RT 8.1 - MS Surface RT           | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
 | Microsoft Windows 10 v1507                         | `1:f:3:6:2c:2e:2f:1f:21:79:f9:fc:2b`            | `MSFT 5.0`                 |               | Microsoft Windows 8.x / 10 / Server 2012          |
 | Microsoft Windows 10 "November" v1511              | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
-| Microsoft Windows Phone 10 (1511)                  | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 | _*_`-Phone`   |  Microsoft Windows Phone 10                       |
+| Microsoft Windows Phone 10 (1511)                  | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 | _*_`-Phone`   | Microsoft Windows Phone 10                        |
 | Microsoft Windows 10 "Anniversary" v1607           | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
 | Microsoft Windows 10 "Creators" v1703              | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
 | Microsoft Windows 10 "Fall Creators" v1709         | `1:3:6:f:1f:21:2b:2c:2e:2f:79:f9:fc`            | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2016                |
