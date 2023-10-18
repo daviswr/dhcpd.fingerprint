@@ -61,10 +61,11 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple iOS 12.0 - iPhone SE G1    | `1:79:3:6:f:77:fc`       |               | Apple iOS 9 - 13  |
 | Apple iOS 13.0 - iPhone SE G1    | `1:79:3:6:f:77:fc`       |               | Apple iOS 9 - 13  |
 | Apple iOS 14.0 - iPhone SE G2    | `1:79:3:6:f:72:77:fc`    |               | Apple iOS 14      |
-| Apple iOS 15.6 - iPhone 7        | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
-| Apple iOS 15.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
-| Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
-| Apple iOS 16.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 16 |
+| Apple iOS 15.6 - iPhone 7        | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
+| Apple iOS 15.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
+| Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
+| Apple iOS 16.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
+| Apple tvOS 17.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
 
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
@@ -363,6 +364,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 11                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-11`                                                                   |                       | Google Android 11                                      |
 | **Google Android 12**                                |||||
 | Android 12 - Google Pixel 6 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | `Pixel-6-Pro`         | Google Android 12                                      |
+| Android 12 - Meta (Oculus) Quest 2                   | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   |                       | Google Android 12                                      |
 | Android 12 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   | _*_`-S21`             | Google Android 12                                      |
 | Android 12                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-12`                                                                   |                       | Google Android 12                                      |
 | **Google Android 13**                                |||||
