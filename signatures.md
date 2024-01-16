@@ -445,6 +445,7 @@ See 'Game Consoles' for Xbox family
 | Microsoft Windows 10 unknown version               | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc:0:44:d0` | `MSFT 5.0`                 |               | Microsoft Windows 10 / Server 2019                |
 | Microsoft Windows 11 v21H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
 | Microsoft Windows 11 v22H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
+| Microsoft Windows 11 v23H2                         | `1:3:6:f:1f:21:2b:2c:2e:2f:77:79:f9:fc`         | `MSFT 5.0`                 |               | Microsoft Windows 10 / 11 / Server 2019           |
 | **Microsoft Windows CE**                           |||||
 | Microsoft Windows Mobile 6 - HTC Mogul             | `1:3:6:f:2c:2e:2f`                              | `Microsoft Windows CE\000` |               | Microsoft Windows Mobile                          |
 | Microsoft Windows Mobile 6 - Palm Treo             | `1:3:6:f:2c:2e:2f`                              | `Microsoft Windows CE\000` |               | Microsoft Windows Mobile                          |
