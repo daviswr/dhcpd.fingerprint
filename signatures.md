@@ -41,6 +41,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 | Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
 | Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
+| Apple macOS "Monterey" 12.7.6        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 
 ### Apple iOS
 | **Device/OS**                    | **PRL**                  | **Vendor ID** | **Client Class**  |
@@ -61,11 +62,16 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple iOS 12.0 - iPhone SE G1    | `1:79:3:6:f:77:fc`       |               | Apple iOS 9 - 13  |
 | Apple iOS 13.0 - iPhone SE G1    | `1:79:3:6:f:77:fc`       |               | Apple iOS 9 - 13  |
 | Apple iOS 14.0 - iPhone SE G2    | `1:79:3:6:f:72:77:fc`    |               | Apple iOS 14      |
-| Apple iOS 15.6 - iPhone 7        | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
-| Apple iOS 15.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
-| Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
-| Apple iOS 16.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
-| Apple tvOS 17.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 17 |
+| Apple iOS 15.6 - iPhone 7        | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 15.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 15.8.3 - iPhone 7      | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 16.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple tvOS 17.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 17.7.2 - iPhone SE G2  | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple tvOS 18.1 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple tvOS 18.2 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 18.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
 
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
