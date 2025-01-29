@@ -389,6 +389,10 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 14 - Google Pixel 7 Pro                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-14`                                                                   | `Pixel-7-Pro`         | Google Android 14                                      |
 | Android 14 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-14`                                                                   | _*_`-S21`             | Google Android 14                                      |
 | Android 14                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-14`                                                                   |                       | Google Android 14                                      |
+| **Google Android 15**                                |||||
+| Android 15 - Google Pixel 6                          | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-15`                                                                   | `Pixel-6`             | Google Android 15                                      |
+| Android 15                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-15`                                                                   |                       | Google Android 15                                      |
+
 
 ## Unix
 | **Device/OS**                     | **PRL**                                   | **Vendor ID**  | **Client Class**              |
