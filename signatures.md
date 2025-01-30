@@ -134,8 +134,9 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | openSUSE 11.4 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2f`    | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
 | openSUSE 11.4, 12.1 (dhclient)                  | `1:1c:3:79:1a:c:f:77:6:28:29:57:55:56:2c:2d:2e:2f:2a`           |                                                                   |               | openSUSE Linux                                  |
 | openSUSE 12.1 (dhcpcd)                          | `3a:3b:1:1c:79:21:3:c:77:f:6:28:29:2a:1a:11:78:9:7:2c:2d:2e:2f` | `dhcpcd 3.2.3`                                                    |               | openSUSE Linux                                  |
-| SystemRescue unknown version (*reported*)       | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue                                    |
-| SystemRescue 9.04 (Arch-based)                  | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue                                    |
+| SystemRescue unknown version (*reported*)       | `1:1c:2:3:f:6:c:2a` (ReactOS, Debian)                           |                                                                   | `sysrescue`   | SystemRescue (Linux)                            |
+| SystemRescue 9.04 (Arch-based)                  | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `sysrescue`   | SystemRescue (Linux)                            |
+| Valve Steam Deck                                | `1:2:6:c:f:1a:1c:79:3:21:28:29:2a:77:f9:fc:11`                  |                                                                   | `steamdeck`   | Valve Steam Deck (Linux)                        |
 
 ### Linux Appliances
 | **Device/OS**                                | **PRL**                                   | **Vendor ID**                                                | **Hostname**    | **Vendor OUI** | **Client Class**                                     |
