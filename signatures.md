@@ -15,6 +15,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | :-------------                       | :------                                       | :------------                                     | :---------------                       |
 | Apple NetBoot PowerPC                | `1:3:2b:3c`                                   | `AAPLBSDPC/ppc/`*model*                           | Apple NetBoot (PPC)                    |
 | Apple NetBoot Intel                  | `1:3:43:2b:3c`                                | `AAPLBSDPC/i386/`*model*                          | Apple NetBoot (Intel)                  |
+| Apple Internet Recovery Intel        | `1:3:6:f:43:2b:3c`                            |                                                   | Apple Internet Recovery (Intel)        |
 | Apple Mac OS 9.0.4 installer         | `1:3:6:f`                                     | `Mac OS 9.0.4 Open Transport `*version*           | Apple Mac OS 9                         |
 | Apple Mac OS 9.1.0                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.1 Open Transport `*version*` `*model*   | Apple Mac OS 9                         |
 | Apple Mac OS 9.2.1                   | `1:3:6:f:21:2a:2c:2d:2e:2f:45:46:47:4a:4e:4f` | `Mac OS 9.2.1 Open Transport `*version*` `*model* | Apple Mac OS 9                         |
@@ -40,8 +41,10 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "Big Sur" 11.7.4         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
 | Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
 | Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
-| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
-| Apple macOS "Monterey" 12.7.6        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
+| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
+| Apple macOS "Monterey" 12.7.6        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
+| Apple macOS "Ventura" 13.7.3         | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
+| Apple macOS "Sequoia" 15.2.0         | `1:79:3:6:f:6c:72:77:fc:64:65:5f:2c:2e`       |                                                   | Apple macOS 15                         |
 
 ### Apple iOS
 | **Device/OS**                    | **PRL**                  | **Vendor ID** | **Client Class**  |
