@@ -37,13 +37,15 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "High Sierra" 10.13.0    | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
 | Apple macOS "Mojave" 10.14.6         | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
 | Apple macOS "Catalina" 10.15.7       | `1:79:3:6:f:77:fc:5f:2c:2e`                   |                                                   | Apple OS X 10.11 / macOS 10.12 - 10.15 |
-| Apple macOS "Big Sur" 11.5.2         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
-| Apple macOS "Big Sur" 11.7.4         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
-| Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12                         |
-| Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 12                    |
-| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
-| Apple macOS "Monterey" 12.7.6        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
-| Apple macOS "Ventura" 13.7.3         | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 13                    |
+| Apple macOS "Big Sur" 11.5.2         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 14                    |
+| Apple macOS "Big Sur" 11.7.4         | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 14                    |
+| Apple macOS "Monterey" 12.0.1        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
+| Apple macOS "Monterey" 12.2.1        | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 14                    |
+| Apple macOS "Monterey" 12.6.0        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
+| Apple macOS "Monterey" 12.7.6        | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
+| Apple macOS "Ventura" 13.7.3         | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
+| Apple macOS "Sonoma" 14.7.8          | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 14                    |
+| Apple macOS "Sonoma" 14.7.8          | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
 | Apple macOS "Sequoia" 15.2.0         | `1:79:3:6:f:6c:72:77:fc:64:65:5f:2c:2e`       |                                                   | Apple macOS 15                         |
 
 ### Apple iOS
@@ -75,6 +77,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple tvOS 18.1 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
 | Apple tvOS 18.2 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
 | Apple iOS 18.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
+| Apple iOS 18.6.2 - iPhone SE G2  | `1:79:3:6:f:6c:72:77:fc` |               | Apple iOS 15 - 18 |
 
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
