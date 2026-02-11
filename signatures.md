@@ -616,7 +616,7 @@ See 'Game Consoles' for Xbox family
 | Juniper ScreenOS 6.2.0r19.0 - NS-5GT      | `33:36:1:3:6:f`          | `NetScreen-NS5GT` (This can be customized) | Juniper ScreenOS network appliance |
 | Juniper ScreenOS 6.3.0r26.0 - SSG5-Serial | `33:36:1:3:6:f`          | `SSG5-Serial`  (This can be customized)    | Juniper ScreenOS network appliance |
 | Juniper ScreenOS 6.3.0r26.0 - SSG5-Serial | `33:36:1:3:6:f:2c`       | `SSG5-Serial`  (This can be customized)    | Juniper ScreenOS network appliance |
-| Junper Junos 12.3X48-D65.1 - SRX-210HE2   | (None)                   |                                            | *(Unclassifiable)*                 |
+| Juniper Junos 12.3X48-D65.1 - SRX-210HE2  | (None)                   |                                            | *(Unclassifiable)*                 |
 | Juniper SRX-300                           | `3:33:1:f:6:42:43:78:2c` |                                            | Juniper Junos network appliance    |
 
 ### Other Network
