@@ -754,6 +754,7 @@ See 'Game Consoles' for Xbox family
 | **Device/OS**                               | **PRL**                                                                                             | **Vendor ID**                      | **Client Class** |
 | :------------                               | :------                                                                                             | :------------                      | :--------------- |
 | **Pre-eXecution Environment**               ||||
+| iPXE 1.20.1+                                | `1:3:6:7:c:f:11:1a:2b:3c:42:43:77:80:81:82:83:84:85:86:87:af:cb`                                    | `PXEClient:Arch:00000:UNDI:002001` | PXE Boot         |
 | Unknown Preboot eXecution Environment (PXE) | `1:2:3:4:5:6:b:c:d:f:10:11:12:16:17:1c:28:29:2a:2b:32:33:36:3a:3b:3c:42:43:80:81:82:83:84:85:86:87` | `PXEClient:Arch:00000:UNDI:002001` | PXE Boot         |
 | Unknown Preboot eXecution Environment (PXE) | `1:2:3:5:6:b:c:d:f:10:11:12:2b:36:3c:43:80:81:82:83:84:85:86:87`                                    | `PXEClient:Arch:00000:UNDI:002001` | PXE Boot         |
 | **Other**                                   ||||
