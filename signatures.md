@@ -412,7 +412,9 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Android 15 - Google Pixel 6                          | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-15`                                                                   | `Pixel-6`             | Google Android 15                                      |
 | Android 15 - Samsung Galaxy S21                      | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-15`                                                                   | _*_`-S21`             | Google Android 15                                      |
 | Android 15                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-15`                                                                   |                       | Google Android 15                                      |
-
+| **Google Android 16**                                |||||
+| Android 16 - Samsung Galaxy Tab S10 FE               | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-16`                                                                   |                       | Google Android 16                                      |
+| Android 16                                           | `1:3:6:f:1a:1c:33:3a:3b:2b:72:6c`       | `android-dhcp-16`                                                                   |                       | Google Android 16                                      |
 
 ## Unix
 | **Device/OS**                     | **PRL**                                   | **Vendor ID**  | **Client Class**              |
