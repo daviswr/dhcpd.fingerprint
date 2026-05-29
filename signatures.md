@@ -86,8 +86,6 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple tvOS 26.3 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 | Apple tvOS 26.3 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 
-
-
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
 | :------------               | :------                                  | :------------ | :---------------             |
