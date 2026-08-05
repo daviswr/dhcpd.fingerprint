@@ -47,6 +47,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple macOS "Sonoma" 14.7.8          | `1:79:3:6:f:72:77:fc:5f:2c:2e`                |                                                   | Apple macOS 11 - 14                    |
 | Apple macOS "Sonoma" 14.7.8          | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
 | Apple macOS "Sonoma" 14.8.3          | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
+| Apple macOS "Sonoma" 14.8.8          | `1:79:3:6:f:6c:72:77:fc:5f:2c:2e`             |                                                   | Apple macOS 12 - 14                    |
 | Apple macOS "Sequoia" 15.2.0         | `1:79:3:6:f:6c:72:77:fc:64:65:5f:2c:2e`       |                                                   | Apple macOS 15                         |
 
 ### Apple iOS
@@ -78,6 +79,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple iOS 18.7 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:fc`    |               | Apple iOS 15 - 18 |
 | Apple iOS 26.2 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 | Apple iOS 26.3 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
+| Apple iOS 26.6 - iPhone SE G2    | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 | Apple tvOS 16.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc`    |               | Apple iOS 15 - 18 |
 | Apple tvOS 17.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc`    |               | Apple iOS 15 - 18 |
 | Apple tvOS 18.1 - AppleTV HD     | `1:79:3:6:f:6c:72:77:fc`    |               | Apple iOS 15 - 18 |
@@ -85,6 +87,7 @@ Verified or at least researched (codenames, OUIs, etc) device signatures and the
 | Apple tvOS 26.0 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 | Apple tvOS 26.3 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 | Apple tvOS 26.3 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
+| Apple tvOS 26.6 - AppleTV HD     | `1:79:3:6:f:6c:72:77:a2:fc` |               | Apple iOS 26      |
 
 ### Apple AirPort
 | **Device/OS**               | **PRL**                                  | **Vendor ID** | **Client Class**             |
