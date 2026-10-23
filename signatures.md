@@ -661,6 +661,8 @@ See 'Game Consoles' for Xbox family
 | TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c`                      |                             |               |                | TrendNet network appliance           |
 | TrendNet unknown network appliance          | `1:3:6:c:f:1c:21:28:29:2a:2c:f9`                   |                             |               |                | TrendNet network appliance           |
 | Ubiquiti airFiber AF24 v1.5 wireless bridge | `1:3:6:c:f:1c:2a` (Cradlepoint, D-Link, Samsung)   | `udhcp 1.11.2`              |               |                | Linux appliance                      |
+| VyOS 1.5-stream-2025-Q2                     | `1:1c:3:6:79:f:1a`                                 |                             |               |                | VyOS network appliance (Linux)       |
+| VyOS 2026.03                                | `1:1c:3:6:79:f:1a`                                 |                             |               |                | VyOS network appliance (Linux)       |
 | WatchGuard FireBox X55e Edge firewall       | `1:3:6:c:f:1c` (Airvana, TrendNet)                 | `udhcp 0.9.9-pre`           |               | `0:90:7f`      | WatchGuard network appliance (Linux) |
 | WIZnet unknown embedded network appliance   | `1:3:6:f:3a:3b`                                    |                             | `WIZnet`      |                | WIZnet embedded network appliance    |
 | Yealink SIP-T48S IP phone                   | `1:2:3:4:6:7:c:f:1c:2a:42:43:2b:64:65:78:84:85`    | `yealink`                   | `SIP-T48S`    |                | Yealink IP phone                     |
